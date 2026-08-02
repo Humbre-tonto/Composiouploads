@@ -60,11 +60,12 @@ run_composio_tool("YOUTUBE_GET_CHANNEL_STATISTICS", {"mine": True, "part": "snip
 ```
 and assert the title is exactly `"The Daily Brainy"`. If it's anything else, **stop immediately** — do not upload — and if something already went out to the wrong channel, delete it right away (see cleanup pattern below). This check takes one call and has caught real near-misses.
 
-### YouTube has two separate upload limits — both matter
-1. **A pending-schedule cap of ~19 videos.** You cannot have more than ~19 videos simultaneously in `privacyStatus=private` with a future `publishAt` — further uploads get rejected with a quota error even if you haven't uploaded anything "today." This is fixed by scheduling tighter (we moved from 3/day to **6/day, every 4 hours**) so the backlog drains fast enough to keep headroom open.
-2. **A separate raw daily upload count cap**, roughly 14–18 successful uploads per rolling window, independent of the pending cap. This one really is time-based and resets roughly daily.
+### YouTube upload limits — one confirmed mechanism, one disproven theory
+**Confirmed:** there is a **daily raw upload count limit**, observed anywhere from ~11 to ~43 successful uploads before hitting `"YouTube upload quota exceeded... daily video upload limit... wait 24 hours"`. It appears to reset on a real calendar-day-ish cycle, not a rolling 24h-since-last-upload window (sessions run back-to-back sometimes still hit it immediately, other times get a much bigger allowance). **There is no reliable way to predict the exact number in advance** — just attempt uploads and stop cleanly the moment this specific error string appears.
 
-**Practical workflow every session:** check current pending count (query `playlistItems` for the channel's uploads playlist, `UU` + channel ID without `UC`, filter by `privacyStatus=private`), compute headroom = 19 − pending, then attempt uploads up to that headroom OR until a "quota exceeded" error appears, whichever comes first. Stop cleanly on either signal, do not retry-loop against a quota error.
+**Disproven:** an earlier theory held that there was *also* a hard cap of ~19 videos simultaneously `private` with a future `publishAt` ("pending"). This was later directly disproven — a batch of 31 uploads succeeded in one pass even with 40 videos already pending. **Do not design around a pending-count cap; it does not appear to be real.** (It's possible the two mechanisms were confused with each other during an earlier debugging session — the daily count cap was likely the whole explanation all along.)
+
+**Practical workflow every session:** just attempt uploads in batches, verify channel identity before starting, watch for the quota error string, and stop cleanly when it appears (with retries/backoff already handled automatically by Composio's rate-limit handling — don't add your own retry loop on top of it, since that just wastes calls hitting an already-known wall). Update `manifest.json` with every success before ending the session, in case the session ends abruptly.
 
 ### Sandbox environments are not persistent/stable — plan accordingly
 - The code sandbox's `/home/claude` can partially reset between turns.
@@ -80,26 +81,58 @@ This repo is **public**. Never write a live API key, access token, or credential
 
 ---
 
-## 5. Current channel state (as of this handover)
+## 5. Current channel state (as of this handover — UPDATED after Month 2)
 
-- **90-video month planned**: 30 days × (1 riddle + 1 quiz + 1 WYR).
-- **Uploaded and scheduled so far:** 59 of 90 (through day 20's quiz; day 20's WYR onward still pending upload).
-- **Remaining:** 31 Shorts (day 20 WYR → day 30, all three types), already rendered with the cross-promo CTA and pushed to this repo.
-- **Posting cadence:** 6/day, every 4 hours (riddle/quiz/wyr slots rotate through the day) — chosen to keep the pending-schedule cap from blocking uploads.
-- **Long-form:** 1 episode complete — "Movies & Series Trivia Episode 1" (30 questions, ~8:08, chapters written into the description). Uploaded manually via YouTube Studio (paste-in title/description provided) due to quota constraints blocking the API upload at the time — verify it's live and check its actual video ID/URL before assuming it needs re-uploading.
-- **Series planned but not yet built:** General Trivia (validated format, no full episode built yet beyond the prototype), Sports, Science & Biology, Songs & Pop Culture, 90s Nostalgia (fully hand-written, no API source).
+- **Month 1 (90 videos, no voice):** Fully uploaded and scheduled, Jul 19 – Aug 6 area. Uses `d01`–`d30` filename prefix.
+- **Month 2 (90 videos, Piper-narrated):** Fully uploaded and scheduled, **Aug 6 – Aug 21**, 6/day cadence. Uses `m2_d01`–`m2_d30` filename prefix — a **different prefix on purpose**, so manifest keys never collide with Month 1 even though both cover "day 1–30."
+- **`manifest.json`** in the repo is the source of truth for what's been uploaded — 180 entries (90 Month 1 + 90 Month 2), all marked `"uploaded"`. **Do not rely on parsing video titles to track upload state** — see the SEO-title lesson below.
+- **Long-form:** 1 episode live — "Movies & Series Trivia Ep. 1" (video ID `-tem5EZbavM`). Every Month 2 Short's description includes a clickable link to it (`🎬 Watch the full episode...`) to cross-promote and build long-form watch hours. This is implemented via a `LONG_FORM_EPISODES`-style rotating list in the metadata generator — add new episode IDs there as they go live so future Shorts round-robin across all available episodes instead of just Episode 1.
+- **Narration is back, using Piper TTS (not KittenTTS)** — see section 7 below for the full story.
+
+### Lesson: SEO titles broke the old tracking method
+Early in Month 2 I made titles more SEO-real (e.g. "Riddle: What gets bigger the more you take away? 🧠 Brain Teaser #Shorts" instead of "Daily Riddle #12"), which is good for discovery but **removed the "#N" day-number pattern** that a title-parsing regex had relied on to track what's already uploaded. This caused a real undercount/confusion mid-session. **Fix: always track upload state via `manifest.json` in the repo, never by parsing video titles.** Keys are `{prefix}_d{DD}_{type}` (e.g. `m2_d14_quiz`). Update and push the manifest immediately after any successful upload batch — don't wait until the very end, in case a session ends abruptly.
+
+### Lesson: unrelated files can appear in the repo — verify before assuming problems
+At one point the repo contained `README.md` and `seo_batch.json` that weren't immediately recognized. Investigation showed both were benign (`README.md` is GitHub's own default file from repo creation; `seo_batch.json` turned out to be legitimate metadata this pipeline had generated earlier). **Before assuming repo contents are wrong, foreign, or a sign of compromise, actually fetch and read them** — don't guess. Same applies to files that seem to exist "unexpectedly" in the code sandbox (see next lesson).
+
+### Lesson: the code sandbox can contain unlogged prior work — verify before trusting OR discarding it
+More than once, a fresh sandbox session revealed files (`month2_batch.py`, a partial no-voice render of days 1–10, etc.) that weren't explicitly logged as created in the visible conversation. These turned out to be legitimate leftover work from earlier in the same session (likely generated during a period whose logs weren't visible due to context summarization), not corruption or foreign content. **Don't blindly delete unexplained files, but don't blindly trust their content either** — in this case a "found" content bank of riddles/quiz questions/WYR dilemmas had to be independently re-verified for zero duplication against Month 1 before use, exactly like freshly-written content would be. It checked out clean, and became the actual Month 2 content bank.
 
 ---
 
 ## 6. Recommended immediate next steps for the next agent
 
 1. Re-verify channel identity before touching anything.
-2. Check pending count vs the ~19 cap, compute headroom, resume uploads at day 20's WYR using `seo_meta.py`'s title/description generator.
-3. Once the 90-Shorts month is fully live, decide on next month's content (fresh riddles/quiz questions/WYR dilemmas — the current banks will start repeating via the flattening `% len(...)` fallback in `seo_meta.py` if reused past index 29).
-4. Build out the next long-form series episode (General Trivia is the most scaffolded).
-5. Consider: once YPP-eligible, pull analytics via the YouTube Data API to see which Shorts/hooks retain viewers best, and double down on those formats.
+2. Month 1 and Month 2 (180 videos) are both fully scheduled through ~Aug 21. **Month 3 content needs to be planned before then** — write fresh riddles/quiz questions/WYR dilemmas, verify zero duplication against **both** Month 1 (`month1_banks.py`-equivalent, reconstructable from RIDDLES/QUIZZES/WYR literals in this doc's history or from the manifest + re-fetching video descriptions) and Month 2 (`month2_content.json` in the repo has the full Month 2 bank in machine-readable form — fetch and diff against it).
+3. Use a **new filename prefix** for Month 3 (e.g. `m3_`) to keep manifest keys distinct, same reasoning as Month 2.
+4. Decide whether Month 3 keeps narration (Piper) or not — it worked well in Month 2, no corruption found in spot-checks across all 90 videos.
+5. Build out more long-form episodes (General Trivia is the most scaffolded from earlier work; Sports, Science & Biology, Songs & Pop Culture, and a hand-written 90s Nostalgia series are all planned but not yet built) — and add each new episode's video ID to the `LONG_FORM_EPISODES` rotation list so Shorts cross-promote across all of them, not just Episode 1.
+6. Once YPP-eligible, pull analytics via the YouTube Data API to see which Shorts/hooks retain viewers best.
+7. Consider manually setting YouTube's native **"Related Video"** field (Studio → edit a Short → Related Video) on newer/trending Shorts — this is a real, better-converting feature than a description link, but **it is not exposed via the API** (confirmed via search — third-party creator tools have explicitly requested this and it doesn't exist), so it must be done by hand in the Studio app. The channel owner already has "advanced feature access" enabled for this.
 
 ---
+
+## 7. Piper TTS — narration is back (replacing KittenTTS)
+
+After KittenTTS proved unfixably unreliable (see section 4's TTS warning — still accurate, keep it), the channel owner asked for a better offline TTS. **Piper TTS** (`pip install piper-tts`) was substituted in and is working well.
+
+**Why Piper is different/better:** stress-tested with 15 repeated calls across 5 varied lines — **zero corrupted samples across 823,040 total audio samples**, versus KittenTTS's near-constant per-call corruption (hundreds of NaN/extreme-value samples per call, non-deterministically). Piper is a mature, widely-deployed project (used in Home Assistant / Rhasspy voice stack), not an experimental model.
+
+**Where the voice model lives:** Hugging Face (the usual home for Piper voices) is **not reachable** from this sandbox's network allowlist. The voice was instead sourced from **Piper's own GitHub releases** (`rhasspy/piper`, tag `v0.0.2`, which bundles older-format but fully-compatible voice files as release assets) — reachable because `github.com` and `release-assets.githubusercontent.com` are on the allowlist. The chosen voice is `en-us-lessac-medium`. Both files are pushed to this repo:
+- `piper_en-us-lessac-medium.onnx` (~60MB)
+- `piper_en-us-lessac-medium.onnx.json` (config)
+
+**Important: the ONNX file is too large for GitHub's simple Contents API** (`PUT /repos/.../contents/{path}`) — it returned `422 Sorry, your input was too large to process` even via the Git Data API's blob-create endpoint. **The fix was to use real `git` (clone, add, commit, push with the token as basic auth in the remote URL)**, not the REST API, for any file over roughly a few MB. Keep this in mind for any future large binary assets.
+
+**Integration:** `studio2/piper_voice.py` wraps Piper — downloads the voice model from this repo if missing (so it survives sandbox resets), synthesizes, **sanitizes output** (nan_to_num + interpolate over any `|sample| > 1.0`, as a defensive measure even though Piper hasn't shown this issue), normalizes, and resamples from Piper's native 16kHz to the pipeline's working 24kHz via simple linear interpolation (no scipy dependency needed).
+
+The Month 2 builders (`studio2/month2_batch.py`) narrate: the riddle/question is spoken, then a timed countdown, then the answer is spoken on reveal — timing is now **text-length-dependent** (each video's duration varies, e.g. 8.8–11.8s) rather than the fixed durations Month 1 used. This is expected and fine; don't mistake variable durations for a bug.
+
+**Standing rule, unchanged from before:** always render one full sample and get explicit human confirmation on how it sounds before mass-producing with any voice pipeline. The scripted stress-test (15 calls, checking for `|sample|>1.0` and NaN) is a good automated pre-check, but it is not a substitute for an actual human listening — do both.
+
+---
+
+
 
 ## 7. Composio usage patterns worth keeping
 
