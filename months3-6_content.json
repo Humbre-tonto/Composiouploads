@@ -1,0 +1,2194 @@
+{
+ "month3": {
+  "fact_or_fake": [
+   [
+    "Honey never spoils, even after thousands of years.",
+    true,
+    "Archaeologists have found edible honey in ancient Egyptian tombs."
+   ],
+   [
+    "Goldfish have a memory span of only three seconds.",
+    false,
+    "Goldfish can actually remember things for months, not seconds."
+   ],
+   [
+    "The Great Wall of China is visible from space with the naked eye.",
+    false,
+    "It's too narrow to be seen without aid from low Earth orbit."
+   ],
+   [
+    "A group of flamingos is called a 'flamboyance'.",
+    true,
+    "That's the official collective noun for flamingos."
+   ],
+   [
+    "Humans only use 10% of their brains.",
+    false,
+    "Brain scans show we use virtually all of our brain, just not all at once."
+   ],
+   [
+    "Bananas are botanically classified as berries.",
+    true,
+    "They meet the botanical definition, unlike strawberries."
+   ],
+   [
+    "Lightning never strikes the same place twice.",
+    false,
+    "The Empire State Building is struck around 20-25 times a year."
+   ],
+   [
+    "Octopuses have three hearts.",
+    true,
+    "Two pump blood to the gills, one to the rest of the body."
+   ],
+   [
+    "The Eiffel Tower can grow taller in the summer heat.",
+    true,
+    "Thermal expansion can add several centimeters to its height."
+   ],
+   [
+    "Sharks existed before trees.",
+    true,
+    "Sharks predate trees by around 50 million years."
+   ],
+   [
+    "Cracking your knuckles causes arthritis.",
+    false,
+    "Studies have found no link between knuckle cracking and arthritis."
+   ],
+   [
+    "Venus is the hottest planet in our solar system.",
+    true,
+    "Its thick atmosphere traps heat, making it hotter than Mercury."
+   ],
+   [
+    "You swallow eight spiders a year in your sleep on average.",
+    false,
+    "This is an urban myth with no scientific basis."
+   ],
+   [
+    "The shortest war in history lasted under 40 minutes.",
+    true,
+    "The Anglo-Zanzibar War of 1896 lasted about 38 minutes."
+   ],
+   [
+    "Diamonds are made from compressed coal.",
+    false,
+    "Diamonds form from carbon much deeper and older than coal deposits."
+   ],
+   [
+    "A day on Venus is longer than its year.",
+    true,
+    "Venus rotates so slowly that its day outlasts its orbit."
+   ],
+   [
+    "Napoleon Bonaparte was unusually short for his time.",
+    false,
+    "He was about average height for a Frenchman of his era."
+   ],
+   [
+    "Wearing headphones for an hour can increase ear bacteria significantly.",
+    true,
+    "Studies show a notable increase in bacteria in warm, enclosed ear spaces."
+   ],
+   [
+    "The Sahara Desert is the largest desert in the world.",
+    false,
+    "Antarctica is technically the largest desert by area."
+   ],
+   [
+    "Polar bears have black skin under their white fur.",
+    true,
+    "Their skin is black to help absorb heat from the sun."
+   ],
+   [
+    "Einstein failed math in school.",
+    false,
+    "He excelled at math from a young age; this is a popular myth."
+   ],
+   [
+    "It rains diamonds on Jupiter and Saturn.",
+    true,
+    "Scientists believe extreme pressure turns carbon into diamonds there."
+   ],
+   [
+    "The human body has enough iron to make a small nail.",
+    true,
+    "The iron content in blood is roughly enough for a 3-inch nail."
+   ],
+   [
+    "Chameleons change color mainly to blend into their surroundings.",
+    false,
+    "They mostly change color to regulate temperature and communicate."
+   ],
+   [
+    "Mount Everest is the tallest mountain measured base to peak.",
+    false,
+    "Mauna Kea in Hawaii is taller when measured from base to summit."
+   ],
+   [
+    "Butterflies can taste with their feet.",
+    true,
+    "Taste receptors on their feet help them find host plants."
+   ],
+   [
+    "The inventor of the Pringles can is buried in one.",
+    true,
+    "Fredric Baur's ashes were partly buried in a Pringles can per his wishes."
+   ],
+   [
+    "All 50 U.S. states have a McDonald's.",
+    false,
+    "Vermont's last McDonald's location closed for a period, breaking full coverage."
+   ],
+   [
+    "Cats can't taste sweetness.",
+    true,
+    "Cats lack the taste receptor gene for sweet flavors."
+   ],
+   [
+    "The inventor of the frisbee was turned into a frisbee after he died.",
+    true,
+    "Walter Morrison's ashes were molded into frisbee discs, per his wishes."
+   ]
+  ],
+  "quizzes": [
+   [
+    "What is the capital of Norway?",
+    [
+     "Bergen",
+     "Oslo",
+     "Trondheim"
+    ],
+    1
+   ],
+   [
+    "Which planet is closest to the sun?",
+    [
+     "Venus",
+     "Mercury",
+     "Earth"
+    ],
+    1
+   ],
+   [
+    "What is the tallest animal in the world?",
+    [
+     "Giraffe",
+     "Elephant",
+     "Ostrich"
+    ],
+    0
+   ],
+   [
+    "Who developed the theory of general relativity?",
+    [
+     "Isaac Newton",
+     "Albert Einstein",
+     "Niels Bohr"
+    ],
+    1
+   ],
+   [
+    "What is the largest island in the world?",
+    [
+     "Greenland",
+     "Madagascar",
+     "Borneo"
+    ],
+    0
+   ],
+   [
+    "Which vitamin is produced when skin is exposed to sunlight?",
+    [
+     "Vitamin C",
+     "Vitamin D",
+     "Vitamin B12"
+    ],
+    1
+   ],
+   [
+    "What is the smallest prime number?",
+    [
+     "0",
+     "1",
+     "2"
+    ],
+    2
+   ],
+   [
+    "Which country is home to the kangaroo?",
+    [
+     "South Africa",
+     "Australia",
+     "New Zealand"
+    ],
+    1
+   ],
+   [
+    "What is the capital of South Korea?",
+    [
+     "Busan",
+     "Seoul",
+     "Incheon"
+    ],
+    1
+   ],
+   [
+    "How many chambers does the human heart have?",
+    [
+     "Two",
+     "Three",
+     "Four"
+    ],
+    2
+   ],
+   [
+    "What is the largest species of penguin?",
+    [
+     "King Penguin",
+     "Emperor Penguin",
+     "Gentoo Penguin"
+    ],
+    1
+   ],
+   [
+    "Which gas makes up about 78% of Earth's atmosphere?",
+    [
+     "Oxygen",
+     "Nitrogen",
+     "Carbon Dioxide"
+    ],
+    1
+   ],
+   [
+    "Who painted 'The Starry Night'?",
+    [
+     "Claude Monet",
+     "Vincent van Gogh",
+     "Pablo Picasso"
+    ],
+    1
+   ],
+   [
+    "What is the currency of Switzerland?",
+    [
+     "Euro",
+     "Swiss Franc",
+     "Krone"
+    ],
+    1
+   ],
+   [
+    "Which is the longest bone in the human body?",
+    [
+     "Femur",
+     "Tibia",
+     "Humerus"
+    ],
+    0
+   ],
+   [
+    "What is the capital of Turkey?",
+    [
+     "Istanbul",
+     "Ankara",
+     "Izmir"
+    ],
+    1
+   ],
+   [
+    "Which planet has the most prominent ring system?",
+    [
+     "Uranus",
+     "Neptune",
+     "Saturn"
+    ],
+    2
+   ],
+   [
+    "What do you call a baby kangaroo?",
+    [
+     "Cub",
+     "Joey",
+     "Kid"
+    ],
+    1
+   ],
+   [
+    "Which organ filters blood in the human body?",
+    [
+     "Liver",
+     "Kidney",
+     "Pancreas"
+    ],
+    1
+   ],
+   [
+    "What is the world's longest coastline country?",
+    [
+     "Russia",
+     "Canada",
+     "Australia"
+    ],
+    1
+   ],
+   [
+    "Which language has the most native speakers worldwide?",
+    [
+     "English",
+     "Spanish",
+     "Mandarin Chinese"
+    ],
+    2
+   ],
+   [
+    "What is the capital of Vietnam?",
+    [
+     "Ho Chi Minh City",
+     "Hanoi",
+     "Da Nang"
+    ],
+    1
+   ],
+   [
+    "Which metal is liquid at room temperature (besides mercury alternatives)?",
+    [
+     "Iron",
+     "Mercury",
+     "Lead"
+    ],
+    1
+   ],
+   [
+    "What is the largest organ in the human body?",
+    [
+     "Liver",
+     "Skin",
+     "Lungs"
+    ],
+    1
+   ],
+   [
+    "Which instrument has 88 keys?",
+    [
+     "Piano",
+     "Organ",
+     "Accordion"
+    ],
+    0
+   ],
+   [
+    "What is the study of earthquakes called?",
+    [
+     "Geology",
+     "Seismology",
+     "Volcanology"
+    ],
+    1
+   ],
+   [
+    "Which continent is the driest on average?",
+    [
+     "Africa",
+     "Antarctica",
+     "Australia"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Kenya?",
+    [
+     "Nairobi",
+     "Mombasa",
+     "Kisumu"
+    ],
+    0
+   ],
+   [
+    "Which blood type is known as the universal donor?",
+    [
+     "A",
+     "O negative",
+     "AB"
+    ],
+    1
+   ],
+   [
+    "What is the tallest waterfall in the world?",
+    [
+     "Niagara Falls",
+     "Angel Falls",
+     "Victoria Falls"
+    ],
+    1
+   ]
+  ],
+  "wyr": [
+   [
+    "Have the ability to fly",
+    "Have the ability to become invisible"
+   ],
+   [
+    "Always have to say what you're thinking",
+    "Never be able to speak again"
+   ],
+   [
+    "Live without music",
+    "Live without television"
+   ],
+   [
+    "Be able to talk to animals",
+    "Be able to speak any human language"
+   ],
+   [
+    "Have unlimited books to read",
+    "Have unlimited movies to watch"
+   ],
+   [
+    "Always be 15 minutes late",
+    "Always be 30 minutes early"
+   ],
+   [
+    "Have a rewind button for your life",
+    "Have a pause button for your life"
+   ],
+   [
+    "Be the smartest person you know",
+    "Be the funniest person you know"
+   ],
+   [
+    "Live in a world without color",
+    "Live in a world without sound"
+   ],
+   [
+    "Have the ability to control the weather",
+    "Have the ability to read minds"
+   ],
+   [
+    "Never eat sweets again",
+    "Never eat salty food again"
+   ],
+   [
+    "Explore space",
+    "Explore the deep ocean"
+   ],
+   [
+    "Have a personal robot assistant",
+    "Have a personal chef"
+   ],
+   [
+    "Be able to breathe underwater",
+    "Be able to fly through the sky"
+   ],
+   [
+    "Win a lifetime supply of pizza",
+    "Win a lifetime supply of tacos"
+   ],
+   [
+    "Have the power to heal others",
+    "Have the power to heal yourself instantly"
+   ],
+   [
+    "Relive your favorite memory forever",
+    "Discover a brand new memory every day"
+   ],
+   [
+    "Always know when someone is lying",
+    "Always get away with lying yourself"
+   ],
+   [
+    "Have a photographic memory",
+    "Have a highly creative imagination"
+   ],
+   [
+    "Be famous for something embarrassing",
+    "Be completely unknown forever"
+   ],
+   [
+    "Never use a phone again",
+    "Never watch TV again"
+   ],
+   [
+    "Have unlimited money but no friends",
+    "Have amazing friends but average money"
+   ],
+   [
+    "Be able to teleport anywhere",
+    "Be able to time travel"
+   ],
+   [
+    "Live without hot showers",
+    "Live without air conditioning"
+   ],
+   [
+    "Only be able to whisper",
+    "Only be able to shout"
+   ],
+   [
+    "Have a dragon as a pet",
+    "Have a phoenix as a pet"
+   ],
+   [
+    "Give up desserts forever",
+    "Give up fried food forever"
+   ],
+   [
+    "Always win at games but never enjoy them",
+    "Always lose but always have fun"
+   ],
+   [
+    "Have the best handwriting in the world",
+    "Have the best singing voice in the world"
+   ],
+   [
+    "Live in a treehouse",
+    "Live in an underground bunker"
+   ]
+  ]
+ },
+ "month4": {
+  "fact_or_fake": [
+   [
+    "A bolt of lightning is hotter than the surface of the sun.",
+    true,
+    "Lightning can reach about 30,000 Kelvin, hotter than the sun's surface."
+   ],
+   [
+    "Ostriches bury their heads in the sand when scared.",
+    false,
+    "They actually lower their heads to the ground to check on eggs or flee."
+   ],
+   [
+    "The human nose can detect over a trillion different scents.",
+    true,
+    "Research suggests humans can distinguish over a trillion odors."
+   ],
+   [
+    "Bats are blind.",
+    false,
+    "Most bats can see, and some have excellent night vision."
+   ],
+   [
+    "A single cloud can weigh over a million pounds.",
+    true,
+    "A typical cumulus cloud can weigh more than a million pounds due to water droplets."
+   ],
+   [
+    "The Statue of Liberty was originally brown.",
+    true,
+    "It was copper-colored before oxidizing to its current green patina."
+   ],
+   [
+    "Peanuts are technically nuts.",
+    false,
+    "Peanuts are legumes, not true nuts."
+   ],
+   [
+    "There are more stars in the universe than grains of sand on Earth.",
+    true,
+    "Estimates put star counts far higher than total grains of sand."
+   ],
+   [
+    "Humans and dinosaurs coexisted at some point.",
+    false,
+    "Dinosaurs went extinct about 66 million years before humans existed."
+   ],
+   [
+    "A snail can sleep for up to three years.",
+    true,
+    "Snails can enter long dormant states, especially in harsh conditions."
+   ],
+   [
+    "The tongue has specific zones for sweet, sour, salty, and bitter tastes.",
+    false,
+    "Taste buds for all flavors are spread across the whole tongue, not zoned."
+   ],
+   [
+    "It is impossible to hum while holding your nose closed.",
+    false,
+    "Humming is possible with your nose closed; it just changes the sound slightly."
+   ],
+   [
+    "The inventor of the microwave oven discovered it by accident.",
+    true,
+    "Percy Spencer noticed a candy bar melted near an active radar set."
+   ],
+   [
+    "Elephants are the only mammals that can't jump.",
+    true,
+    "Their leg structure doesn't allow for the push-off needed to jump."
+   ],
+   [
+    "The Amazon rainforest produces about 20% of the world's oxygen.",
+    false,
+    "Its net oxygen contribution is close to zero, though it's still vital to biodiversity."
+   ],
+   [
+    "A rainbow can only be seen if the sun is behind you.",
+    true,
+    "Rainbows form opposite the sun's position relative to the observer."
+   ],
+   [
+    "Koalas are technically a type of bear.",
+    false,
+    "Koalas are marsupials, not bears at all."
+   ],
+   [
+    "The Great Fire of London in 1666 killed thousands of people.",
+    false,
+    "Official records list only a handful of confirmed deaths."
+   ],
+   [
+    "Human teeth are just as strong as shark teeth.",
+    false,
+    "Shark teeth are far more durable and self-replacing than human teeth."
+   ],
+   [
+    "Some turtles can breathe through their butts.",
+    true,
+    "Certain turtle species absorb oxygen through their cloaca while submerged."
+   ],
+   [
+    "The Mona Lisa has eyebrows.",
+    false,
+    "The famous painting shows no visible eyebrows, possibly faded over time."
+   ],
+   [
+    "It's impossible for a cow to walk down stairs.",
+    false,
+    "Cows can walk down stairs; they just struggle more due to their knee structure."
+   ],
+   [
+    "Venus is the only planet that spins clockwise.",
+    true,
+    "Venus rotates in the opposite direction from most other planets."
+   ],
+   [
+    "Sea otters hold hands while sleeping so they don't drift apart.",
+    true,
+    "They link paws or wrap in kelp to stay together while floating."
+   ],
+   [
+    "The world's oceans contain enough gold to give everyone on Earth several kilograms.",
+    true,
+    "Trace amounts of dissolved gold exist throughout ocean water, though extraction isn't practical."
+   ],
+   [
+    "Albert Einstein won a Nobel Prize for his theory of relativity.",
+    false,
+    "His Nobel Prize was for the photoelectric effect, not relativity."
+   ],
+   [
+    "A hummingbird's heart can beat over 1,200 times per minute.",
+    true,
+    "Their tiny hearts beat extremely fast to support rapid wing movement."
+   ],
+   [
+    "The longest recorded flight of a chicken is over a minute.",
+    false,
+    "Chickens can only fly for a few seconds at most, covering short distances."
+   ],
+   [
+    "Antarctica is classified as a desert.",
+    true,
+    "It receives very little precipitation, meeting the technical definition of a desert."
+   ],
+   [
+    "The five-second rule makes dropped food safe to eat.",
+    false,
+    "Bacteria can transfer to food almost instantly upon contact with a surface."
+   ]
+  ],
+  "quizzes": [
+   [
+    "What is the capital of Thailand?",
+    [
+     "Bangkok",
+     "Phuket",
+     "Chiang Mai"
+    ],
+    0
+   ],
+   [
+    "Which is the smallest continent by land area?",
+    [
+     "Europe",
+     "Australia",
+     "Antarctica"
+    ],
+    1
+   ],
+   [
+    "Who wrote the novel 'Pride and Prejudice'?",
+    [
+     "Emily Bronte",
+     "Jane Austen",
+     "Virginia Woolf"
+    ],
+    1
+   ],
+   [
+    "What is the hardest rock on the Mohs scale?",
+    [
+     "Quartz",
+     "Diamond",
+     "Topaz"
+    ],
+    1
+   ],
+   [
+    "Which country is known as the Land of the Rising Sun?",
+    [
+     "China",
+     "Japan",
+     "South Korea"
+    ],
+    1
+   ],
+   [
+    "What is the largest planet in our solar system?",
+    [
+     "Saturn",
+     "Jupiter",
+     "Neptune"
+    ],
+    1
+   ],
+   [
+    "How many continents are there?",
+    [
+     "Five",
+     "Six",
+     "Seven"
+    ],
+    2
+   ],
+   [
+    "What is the main ingredient in guacamole?",
+    [
+     "Tomato",
+     "Avocado",
+     "Onion"
+    ],
+    1
+   ],
+   [
+    "Which country has the most time zones?",
+    [
+     "Russia",
+     "USA",
+     "France"
+    ],
+    2
+   ],
+   [
+    "What is the study of weather called?",
+    [
+     "Meteorology",
+     "Geology",
+     "Astronomy"
+    ],
+    0
+   ],
+   [
+    "Which is the fastest land animal?",
+    [
+     "Lion",
+     "Cheetah",
+     "Horse"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Egypt?",
+    [
+     "Alexandria",
+     "Cairo",
+     "Giza"
+    ],
+    1
+   ],
+   [
+    "Which planet is known for its Great Red Spot?",
+    [
+     "Mars",
+     "Jupiter",
+     "Saturn"
+    ],
+    1
+   ],
+   [
+    "What is the largest species of shark?",
+    [
+     "Great White Shark",
+     "Whale Shark",
+     "Hammerhead Shark"
+    ],
+    1
+   ],
+   [
+    "Which planet is known as the \"Morning Star\" or \"Evening Star\"?",
+    [
+     "Mars",
+     "Venus",
+     "Mercury"
+    ],
+    1
+   ],
+   [
+    "What is the boiling point of water at sea level in Fahrenheit?",
+    [
+     "100\u00b0F",
+     "212\u00b0F",
+     "180\u00b0F"
+    ],
+    1
+   ],
+   [
+    "Which ocean is the smallest?",
+    [
+     "Indian Ocean",
+     "Arctic Ocean",
+     "Southern Ocean"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Argentina?",
+    [
+     "Rio de Janeiro",
+     "Buenos Aires",
+     "Santiago"
+    ],
+    1
+   ],
+   [
+    "Which gas is most abundant in the sun?",
+    [
+     "Oxygen",
+     "Helium",
+     "Hydrogen"
+    ],
+    2
+   ],
+   [
+    "What is the tallest species of tree?",
+    [
+     "Redwood",
+     "Sequoia",
+     "Douglas Fir"
+    ],
+    0
+   ],
+   [
+    "Which country hosted the first modern Olympic Games?",
+    [
+     "France",
+     "Greece",
+     "Italy"
+    ],
+    1
+   ],
+   [
+    "What is the largest bone in the human body?",
+    [
+     "Tibia",
+     "Femur",
+     "Fibula"
+    ],
+    1
+   ],
+   [
+    "Which planet is famous for having a day longer than its year?",
+    [
+     "Mars",
+     "Venus",
+     "Mercury"
+    ],
+    1
+   ],
+   [
+    "What is the most spoken native language in the world?",
+    [
+     "English",
+     "Hindi",
+     "Mandarin Chinese"
+    ],
+    2
+   ],
+   [
+    "Which country is famous for the Great Barrier Reef?",
+    [
+     "New Zealand",
+     "Australia",
+     "Fiji"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Germany?",
+    [
+     "Munich",
+     "Berlin",
+     "Hamburg"
+    ],
+    1
+   ],
+   [
+    "Which element has the atomic number 1?",
+    [
+     "Helium",
+     "Hydrogen",
+     "Lithium"
+    ],
+    1
+   ],
+   [
+    "What is the largest freshwater lake by surface area?",
+    [
+     "Lake Superior",
+     "Lake Victoria",
+     "Lake Baikal"
+    ],
+    0
+   ],
+   [
+    "Which artist is known for cutting off part of his own ear?",
+    [
+     "Pablo Picasso",
+     "Vincent van Gogh",
+     "Claude Monet"
+    ],
+    1
+   ],
+   [
+    "What is the smallest bone in the human body?",
+    [
+     "Stapes",
+     "Malleus",
+     "Incus"
+    ],
+    0
+   ]
+  ],
+  "wyr": [
+   [
+    "Have unlimited free travel",
+    "Have unlimited free food"
+   ],
+   [
+    "Have the ability to control the weather",
+    "Have the ability to control your dreams"
+   ],
+   [
+    "Always have wet socks",
+    "Always have a headache after eating"
+   ],
+   [
+    "Live without the internet",
+    "Live without air conditioning"
+   ],
+   [
+    "Be the best cook in your friend group",
+    "Be the best storyteller in your friend group"
+   ],
+   [
+    "Be able to control fire",
+    "Be able to control ice"
+   ],
+   [
+    "Win an award for bravery",
+    "Win an award for kindness"
+   ],
+   [
+    "Have a fridge that never runs empty",
+    "Have a closet that never runs out of clean clothes"
+   ],
+   [
+    "Only be able to eat breakfast food forever",
+    "Only be able to eat dinner food forever"
+   ],
+   [
+    "Have the ability to talk to the dead",
+    "Have the ability to see the future"
+   ],
+   [
+    "Be stuck in a lift with your boss",
+    "Be stuck in a lift with a stranger"
+   ],
+   [
+    "Have unlimited vacation days but average pay",
+    "Have limited vacation but high pay"
+   ],
+   [
+    "Live in a world with no lies",
+    "Live in a world with no rules"
+   ],
+   [
+    "Always have to tell a joke before speaking",
+    "Always have to sing before speaking"
+   ],
+   [
+    "Be the best at your job",
+    "Be the most liked at your job"
+   ],
+   [
+    "Have a personal theme song that plays everywhere you go",
+    "Have a personal spotlight follow you everywhere"
+   ],
+   [
+    "Never be able to use social media again",
+    "Never be able to watch sports again"
+   ],
+   [
+    "Have the power to shrink objects",
+    "Have the power to enlarge objects"
+   ],
+   [
+    "Explore every country on Earth",
+    "Explore every planet in the solar system"
+   ],
+   [
+    "Wake up with a new skill every day",
+    "Wake up with a new fact every day"
+   ],
+   [
+    "Live in a treehouse in a forest",
+    "Live in a cabin on a mountain"
+   ],
+   [
+    "Only communicate through text",
+    "Only communicate through video calls"
+   ],
+   [
+    "Have unlimited energy but average intelligence",
+    "Have unlimited intelligence but average energy"
+   ],
+   [
+    "Be able to fast forward boring moments",
+    "Be able to rewind and redo mistakes"
+   ],
+   [
+    "Have a permanent personal chef",
+    "Have a permanent personal trainer"
+   ],
+   [
+    "Live without birthdays",
+    "Live without holidays"
+   ],
+   [
+    "Have super night vision",
+    "Have super hearing during the day"
+   ],
+   [
+    "Always smell like your favorite food",
+    "Always sound like your favorite song"
+   ],
+   [
+    "Be able to breathe fire",
+    "Be able to breathe underwater"
+   ],
+   [
+    "Have the power to freeze time for others, not yourself",
+    "Have the power to freeze time for yourself, not others"
+   ]
+  ]
+ },
+ "month5": {
+  "fact_or_fake": [
+   [
+    "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
+    true,
+    "The pyramids were built ~2560 BC; Cleopatra lived ~30 BC, closer to 1969 than to the pyramids."
+   ],
+   [
+    "The unicorn is the national animal of Scotland.",
+    true,
+    "Scotland has officially used the unicorn as its national animal since the 1300s."
+   ],
+   [
+    "Oxford University is older than the Aztec Empire.",
+    true,
+    "Teaching began at Oxford around 1096, while the Aztec Empire started around 1428."
+   ],
+   [
+    "A blue whale's heart is roughly the size of a small car.",
+    true,
+    "Blue whale hearts can weigh around 400 pounds and are famously huge."
+   ],
+   [
+    "The first oranges were originally orange in color.",
+    false,
+    "The earliest oranges were actually green; the color name came later."
+   ],
+   [
+    "Table tennis was originally called 'whiff-whaff'.",
+    true,
+    "Early versions of ping pong were called by names like whiff-whaff in the 1800s."
+   ],
+   [
+    "Scotland has more redheads per capita than any other country.",
+    true,
+    "Scotland is widely cited as having the highest percentage of natural redheads."
+   ],
+   [
+    "The inventor of the Erector Set also invented the artificial heart.",
+    false,
+    "The Erector Set inventor did not invent the artificial heart; this is a myth."
+   ],
+   [
+    "Some cats are allergic to humans.",
+    true,
+    "Cats can develop allergic reactions to human skin cells, similarly to how humans react to pets."
+   ],
+   [
+    "There's a species of jellyfish that is biologically immortal.",
+    true,
+    "Turritopsis dohrnii can revert to an earlier life stage, essentially avoiding aging death."
+   ],
+   [
+    "The Twitter bird has an official name.",
+    true,
+    "The bird was officially named 'Larry' by Twitter before the platform's rebrand."
+   ],
+   [
+    "Coca-Cola was originally green.",
+    false,
+    "Coca-Cola has always been brown/caramel colored, not green."
+   ],
+   [
+    "Scotland's national motto includes a warning in Latin roughly meaning 'no one provokes me with impunity'.",
+    true,
+    "This is the country's official motto, tied to the unicorn and thistle."
+   ],
+   [
+    "The dot over a lowercase 'i' or 'j' has a specific name.",
+    true,
+    "It's called a 'tittle'."
+   ],
+   [
+    "A shrimp's heart is located in its head.",
+    true,
+    "A shrimp's heart is located near its head, not in its thorax like many other creatures."
+   ],
+   [
+    "Bananas grow on trees.",
+    false,
+    "Banana plants are technically giant herbs, not trees."
+   ],
+   [
+    "The Eiffel Tower was originally intended to be temporary.",
+    true,
+    "It was built for the 1889 World's Fair and almost dismantled after 20 years."
+   ],
+   [
+    "Almonds are part of the peach family.",
+    true,
+    "Almonds are classified in the same plant family as peaches and plums."
+   ],
+   [
+    "The world's first computer programmer was a man.",
+    false,
+    "Ada Lovelace, a woman, is widely credited as the first computer programmer."
+   ],
+   [
+    "Wombat poop is cube-shaped.",
+    true,
+    "Wombats produce distinctively cube-shaped droppings."
+   ],
+   [
+    "The Titanic had a sister ship that also sank.",
+    false,
+    "Its sister ship Olympic had a long career and never sank."
+   ],
+   [
+    "A jiffy is an actual unit of time.",
+    true,
+    "A jiffy is defined in physics as a very short, specific unit of time."
+   ],
+   [
+    "The inventor of the Ferris Wheel was named George Ferris.",
+    true,
+    "George Washington Gale Ferris Jr. invented the original Ferris Wheel."
+   ],
+   [
+    "It's illegal to own just one guinea pig in Switzerland.",
+    true,
+    "Swiss animal welfare laws require guinea pigs to have companionship."
+   ],
+   [
+    "The letter 'Q' is not used in any U.S. state name.",
+    true,
+    "No U.S. state name contains the letter Q."
+   ],
+   [
+    "A 'group of pandas' is called an 'embarrassment'.",
+    true,
+    "That's the official collective noun for pandas."
+   ],
+   [
+    "Mount Everest's height is fixed and never changes.",
+    false,
+    "Its height changes slightly due to tectonic activity and snow measurement variance."
+   ],
+   [
+    "The dot on top of an exclamation point has no special name.",
+    false,
+    "Like the tittle on 'i' and 'j', the dot has its own terminology in typography."
+   ],
+   [
+    "Honeybees can recognize human faces.",
+    true,
+    "Studies show honeybees can be trained to distinguish between human faces."
+   ],
+   [
+    "The first product with a barcode scanned at a store was a pack of gum.",
+    true,
+    "A pack of Wrigley's chewing gum was the first barcoded item scanned in 1974."
+   ]
+  ],
+  "quizzes": [
+   [
+    "What is the capital of Portugal?",
+    [
+     "Porto",
+     "Lisbon",
+     "Braga"
+    ],
+    1
+   ],
+   [
+    "Which planet has the shortest day?",
+    [
+     "Earth",
+     "Jupiter",
+     "Mars"
+    ],
+    1
+   ],
+   [
+    "Who composed the 'Ninth Symphony'?",
+    [
+     "Mozart",
+     "Beethoven",
+     "Bach"
+    ],
+    1
+   ],
+   [
+    "What is the currency of India?",
+    [
+     "Rupee",
+     "Ringgit",
+     "Rand"
+    ],
+    0
+   ],
+   [
+    "Which is the largest species of big cat?",
+    [
+     "Lion",
+     "Tiger",
+     "Jaguar"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Chile?",
+    [
+     "Santiago",
+     "Lima",
+     "Bogota"
+    ],
+    0
+   ],
+   [
+    "Which vitamin is also known as ascorbic acid?",
+    [
+     "Vitamin A",
+     "Vitamin C",
+     "Vitamin E"
+    ],
+    1
+   ],
+   [
+    "What is the smallest country in Africa by area?",
+    [
+     "Gambia",
+     "Seychelles",
+     "Rwanda"
+    ],
+    1
+   ],
+   [
+    "Which instrument measures atmospheric pressure?",
+    [
+     "Thermometer",
+     "Barometer",
+     "Hygrometer"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Greece?",
+    [
+     "Athens",
+     "Sparta",
+     "Thessaloniki"
+    ],
+    0
+   ],
+   [
+    "Which country consumes the most coffee per capita?",
+    [
+     "Brazil",
+     "Finland",
+     "Italy"
+    ],
+    1
+   ],
+   [
+    "What is the largest muscle in the human body?",
+    [
+     "Bicep",
+     "Gluteus Maximus",
+     "Quadricep"
+    ],
+    1
+   ],
+   [
+    "Which sea creature has blue blood?",
+    [
+     "Octopus",
+     "Jellyfish",
+     "Starfish"
+    ],
+    0
+   ],
+   [
+    "What is the capital of Poland?",
+    [
+     "Krakow",
+     "Warsaw",
+     "Gdansk"
+    ],
+    1
+   ],
+   [
+    "Which planet is closest in size to Earth?",
+    [
+     "Mars",
+     "Venus",
+     "Mercury"
+    ],
+    1
+   ],
+   [
+    "What is the main language spoken in Austria?",
+    [
+     "French",
+     "German",
+     "Italian"
+    ],
+    1
+   ],
+   [
+    "Which is the longest wall in the world?",
+    [
+     "Great Wall of China",
+     "Hadrian's Wall",
+     "Berlin Wall"
+    ],
+    0
+   ],
+   [
+    "What is the study of fossils called?",
+    [
+     "Paleontology",
+     "Archaeology",
+     "Anthropology"
+    ],
+    0
+   ],
+   [
+    "Which country is the origin of sushi?",
+    [
+     "China",
+     "Japan",
+     "Thailand"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Finland?",
+    [
+     "Stockholm",
+     "Helsinki",
+     "Oslo"
+    ],
+    1
+   ],
+   [
+    "Which of these is a dwarf planet?",
+    [
+     "Pluto",
+     "Mars",
+     "Mercury"
+    ],
+    0
+   ],
+   [
+    "What is the largest man-made structure visible from low orbit?",
+    [
+     "Great Wall of China",
+     "Pyramids of Giza",
+     "Burj Khalifa"
+    ],
+    0
+   ],
+   [
+    "Which country has the most pyramids?",
+    [
+     "Egypt",
+     "Mexico",
+     "Sudan"
+    ],
+    2
+   ],
+   [
+    "What is the capital of Morocco?",
+    [
+     "Casablanca",
+     "Rabat",
+     "Marrakech"
+    ],
+    1
+   ],
+   [
+    "Which gas do plants absorb from the atmosphere?",
+    [
+     "Oxygen",
+     "Carbon Dioxide",
+     "Nitrogen"
+    ],
+    1
+   ],
+   [
+    "What is the fastest bird in level flight?",
+    [
+     "Peregrine Falcon",
+     "Golden Eagle",
+     "Swift"
+    ],
+    2
+   ],
+   [
+    "Which country is home to the ancient city of Petra?",
+    [
+     "Jordan",
+     "Egypt",
+     "Syria"
+    ],
+    0
+   ],
+   [
+    "Which is the smallest planet in our solar system?",
+    [
+     "Mars",
+     "Mercury",
+     "Pluto"
+    ],
+    1
+   ],
+   [
+    "Which planet has a moon named Titan?",
+    [
+     "Jupiter",
+     "Saturn",
+     "Uranus"
+    ],
+    1
+   ],
+   [
+    "What is the tallest building in the world?",
+    [
+     "Burj Khalifa",
+     "Shanghai Tower",
+     "Empire State Building"
+    ],
+    0
+   ]
+  ],
+  "wyr": [
+   [
+    "Have a personal jet",
+    "Have a personal yacht"
+   ],
+   [
+    "Be able to talk your way out of anything",
+    "Be able to fight your way out of anything"
+   ],
+   [
+    "Live in a world without weekends",
+    "Live in a world without vacations"
+   ],
+   [
+    "Have a job you love with low pay",
+    "Have a job you dislike with high pay"
+   ],
+   [
+    "Always have to walk backwards",
+    "Always have to crawl instead of walk"
+   ],
+   [
+    "Never age past 30",
+    "Never get sick again"
+   ],
+   [
+    "Be able to control the internet",
+    "Be able to control the news"
+   ],
+   [
+    "Have unlimited concert tickets",
+    "Have unlimited movie premiere tickets"
+   ],
+   [
+    "Be the last person on Earth",
+    "Be one of only ten people left on Earth"
+   ],
+   [
+    "Have a house full of books",
+    "Have a house full of gadgets"
+   ],
+   [
+    "Always speak in rhymes",
+    "Always speak in questions"
+   ],
+   [
+    "Have a garden that grows any fruit instantly",
+    "Have a kitchen that cooks any meal instantly"
+   ],
+   [
+    "Be able to run at 60 mph",
+    "Be able to swim at 60 mph"
+   ],
+   [
+    "Have unlimited board games",
+    "Have unlimited video games"
+   ],
+   [
+    "Live somewhere with no crime but strict rules",
+    "Live somewhere with freedom but higher risk"
+   ],
+   [
+    "Only be able to travel by boat",
+    "Only be able to travel by train"
+   ],
+   [
+    "Have the ability to erase one memory",
+    "Have the ability to implant one memory"
+   ],
+   [
+    "Be a leader people follow out of respect",
+    "Be a leader people follow out of fear"
+   ],
+   [
+    "Have unlimited candles that never burn out",
+    "Have unlimited batteries that never die"
+   ],
+   [
+    "Wake up as a giant for one day",
+    "Wake up tiny for one day"
+   ],
+   [
+    "Have a photographic memory for numbers",
+    "Have a photographic memory for directions"
+   ],
+   [
+    "Be able to talk to your past self",
+    "Be able to talk to your future self"
+   ],
+   [
+    "Live near the beach",
+    "Live near the mountains"
+   ],
+   [
+    "Have super sense of smell",
+    "Have super sense of taste"
+   ],
+   [
+    "Always win the lottery small amounts",
+    "Win the lottery big once"
+   ],
+   [
+    "Have unlimited plane upgrades",
+    "Have unlimited hotel upgrades"
+   ],
+   [
+    "Be able to skip Mondays forever",
+    "Be able to skip winters forever"
+   ],
+   [
+    "Have a personal library",
+    "Have a personal home theater"
+   ],
+   [
+    "Never need an alarm clock again",
+    "Never be stuck in traffic again"
+   ],
+   [
+    "Have the power to talk to machines",
+    "Have the power to fix any machine instantly"
+   ]
+  ]
+ },
+ "month6": {
+  "fact_or_fake": [
+   [
+    "The inventor of the telephone, Alexander Graham Bell, never called his own mother or wife on the phone.",
+    true,
+    "Both his mother and wife were deaf, so he never called them."
+   ],
+   [
+    "A crocodile cannot stick its tongue out.",
+    true,
+    "A crocodile's tongue is held in place by a membrane, preventing it from extending."
+   ],
+   [
+    "Some fish can climb trees.",
+    true,
+    "The mudskipper can climb trees and survive out of water for extended periods."
+   ],
+   [
+    "The shortest commercial flight in the world lasts under two minutes.",
+    true,
+    "A flight between two Scottish islands takes under two minutes in good conditions."
+   ],
+   [
+    "The Eiffel Tower is the most visited paid monument in the world.",
+    false,
+    "The Great Wall of China and other sites see far more visitors."
+   ],
+   [
+    "Slugs have four noses.",
+    true,
+    "Slugs technically have four sensory tentacles used for smell."
+   ],
+   [
+    "You can hear a blue whale's call from over 500 miles away underwater.",
+    true,
+    "Blue whale calls can travel extremely long distances through water."
+   ],
+   [
+    "The first alarm clock could only ring at one specific time.",
+    true,
+    "Early mechanical alarm clocks were fixed to ring at 4am only."
+   ],
+   [
+    "The Amazon River has no bridges crossing it.",
+    true,
+    "Due to its remote path through rainforest, no bridges cross the main Amazon River."
+   ],
+   [
+    "A shrimp can't swim backwards.",
+    false,
+    "Shrimp can rapidly flick their tails to shoot backwards through water."
+   ],
+   [
+    "The word 'set' has the most different meanings of any English word.",
+    true,
+    "The Oxford English Dictionary lists 'set' with the most definitions of any word."
+   ],
+   [
+    "There are more possible iterations of a chess game than atoms in the observable universe.",
+    true,
+    "The number of possible chess games vastly exceeds estimated atom counts."
+   ],
+   [
+    "Astronauts can grow taller in space.",
+    true,
+    "Reduced gravity allows the spine to elongate slightly during spaceflight."
+   ],
+   [
+    "The longest wedding veil was longer than 60 football fields.",
+    true,
+    "A record-setting wedding veil measured longer than 60 soccer pitches combined."
+   ],
+   [
+    "Cows have best friends and get stressed when separated.",
+    true,
+    "Studies show cows form close bonds and show stress indicators when separated."
+   ],
+   [
+    "The inventor of the Frisbee died before it became popular.",
+    false,
+    "Walter Morrison lived to see the Frisbee become a huge commercial success."
+   ],
+   [
+    "It's physically impossible to lick your own elbow.",
+    true,
+    "Most people's arm and shoulder structure prevents reaching the elbow with the tongue."
+   ],
+   [
+    "A group of crows is called a 'murder'.",
+    true,
+    "That's the traditional collective noun for crows."
+   ],
+   [
+    "The Statue of Liberty's official name is 'Liberty Enlightening the World'.",
+    true,
+    "That is its full official French-origin name."
+   ],
+   [
+    "Penguins propose to their mates with a pebble.",
+    true,
+    "Some penguin species, like Gentoos, present pebbles as part of courtship."
+   ],
+   [
+    "The longest living land animal is the elephant.",
+    false,
+    "Giant tortoises typically live far longer than elephants."
+   ],
+   [
+    "There's a basketball court inside the U.S. Supreme Court building.",
+    true,
+    "It's informally nicknamed 'the highest court in the land'."
+   ],
+   [
+    "The dot of a lowercase 'i' was originally added for decoration.",
+    false,
+    "The dot was added to help distinguish the letter in cursive medieval handwriting."
+   ],
+   [
+    "The Mona Lisa is painted on canvas.",
+    false,
+    "It's painted on a poplar wood panel, not canvas."
+   ],
+   [
+    "A rhinoceros horn is made of the same material as human hair.",
+    true,
+    "Rhino horns are composed of keratin, the same protein as hair and nails."
+   ],
+   [
+    "The longest engagement in recorded history lasted over 60 years.",
+    true,
+    "A record-setting couple stayed engaged for decades before marrying."
+   ],
+   [
+    "The Sahara Desert was once a lush green landscape.",
+    true,
+    "Thousands of years ago the Sahara had lakes, rivers, and vegetation."
+   ],
+   [
+    "Kangaroos can't walk backwards.",
+    true,
+    "Their leg structure and tail make backward walking essentially impossible."
+   ],
+   [
+    "The dot-com boom began before the internet was invented.",
+    false,
+    "The internet existed for decades before the dot-com boom of the late 1990s."
+   ],
+   [
+    "You can't hum with your nose plugged if your mouth is also closed.",
+    false,
+    "Humming is a nasal sound and still works even with the mouth closed."
+   ]
+  ],
+  "quizzes": [
+   [
+    "What is the capital of Peru?",
+    [
+     "Lima",
+     "Quito",
+     "Bogota"
+    ],
+    0
+   ],
+   [
+    "Which planet is known for its blue color due to methane?",
+    [
+     "Neptune",
+     "Mars",
+     "Mercury"
+    ],
+    0
+   ],
+   [
+    "Who wrote 'The Odyssey'?",
+    [
+     "Homer",
+     "Virgil",
+     "Sophocles"
+    ],
+    0
+   ],
+   [
+    "What is the largest species of turtle?",
+    [
+     "Leatherback Turtle",
+     "Green Turtle",
+     "Snapping Turtle"
+    ],
+    0
+   ],
+   [
+    "Which country is famous for tulips and windmills?",
+    [
+     "Belgium",
+     "Netherlands",
+     "Denmark"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Iceland?",
+    [
+     "Reykjavik",
+     "Oslo",
+     "Helsinki"
+    ],
+    0
+   ],
+   [
+    "Which metal has the highest melting point?",
+    [
+     "Iron",
+     "Tungsten",
+     "Titanium"
+    ],
+    1
+   ],
+   [
+    "What is the smallest ocean by area?",
+    [
+     "Atlantic Ocean",
+     "Arctic Ocean",
+     "Indian Ocean"
+    ],
+    1
+   ],
+   [
+    "Which country is the largest producer of coffee?",
+    [
+     "Colombia",
+     "Vietnam",
+     "Brazil"
+    ],
+    2
+   ],
+   [
+    "What is the capital of Malaysia?",
+    [
+     "Kuala Lumpur",
+     "Singapore",
+     "Jakarta"
+    ],
+    0
+   ],
+   [
+    "Which animal has the longest lifespan?",
+    [
+     "Elephant",
+     "Giant Tortoise",
+     "Bowhead Whale"
+    ],
+    2
+   ],
+   [
+    "What is the largest state in the USA by area?",
+    [
+     "Texas",
+     "California",
+     "Alaska"
+    ],
+    2
+   ],
+   [
+    "Which planet takes the longest to orbit the sun?",
+    [
+     "Saturn",
+     "Uranus",
+     "Neptune"
+    ],
+    2
+   ],
+   [
+    "What is the study of insects called?",
+    [
+     "Entomology",
+     "Ornithology",
+     "Ichthyology"
+    ],
+    0
+   ],
+   [
+    "Which country has the longest official coastline?",
+    [
+     "Australia",
+     "Canada",
+     "Indonesia"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Colombia?",
+    [
+     "Medellin",
+     "Bogota",
+     "Cali"
+    ],
+    1
+   ],
+   [
+    "Which element is essential for human bone strength?",
+    [
+     "Calcium",
+     "Potassium",
+     "Sodium"
+    ],
+    0
+   ],
+   [
+    "What is the fastest fish in the world?",
+    [
+     "Marlin",
+     "Sailfish",
+     "Tuna"
+    ],
+    1
+   ],
+   [
+    "Which country is home to the Serengeti?",
+    [
+     "Kenya",
+     "Tanzania",
+     "Uganda"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Denmark?",
+    [
+     "Copenhagen",
+     "Oslo",
+     "Stockholm"
+    ],
+    0
+   ],
+   [
+    "Which is the driest continent on Earth?",
+    [
+     "Africa",
+     "Australia",
+     "Antarctica"
+    ],
+    2
+   ],
+   [
+    "What is the largest coral reef in the world?",
+    [
+     "Great Barrier Reef",
+     "Belize Barrier Reef",
+     "Red Sea Reef"
+    ],
+    0
+   ],
+   [
+    "Which country invented pizza as we know it?",
+    [
+     "France",
+     "Italy",
+     "Greece"
+    ],
+    1
+   ],
+   [
+    "What is the capital of New Zealand?",
+    [
+     "Auckland",
+     "Wellington",
+     "Christchurch"
+    ],
+    1
+   ],
+   [
+    "Which is the only planet that rotates on its side?",
+    [
+     "Uranus",
+     "Neptune",
+     "Saturn"
+    ],
+    0
+   ],
+   [
+    "What is the largest species of eagle?",
+    [
+     "Bald Eagle",
+     "Harpy Eagle",
+     "Golden Eagle"
+    ],
+    1
+   ],
+   [
+    "Which country has the most volcanoes?",
+    [
+     "Japan",
+     "Indonesia",
+     "USA"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Ecuador?",
+    [
+     "Quito",
+     "Guayaquil",
+     "Lima"
+    ],
+    0
+   ],
+   [
+    "Which gas gives the sky its blue color when scattered?",
+    [
+     "Nitrogen",
+     "Oxygen",
+     "All gases scatter blue light equally"
+    ],
+    2
+   ],
+   [
+    "What is the tallest type of grass in the world?",
+    [
+     "Bamboo",
+     "Sugarcane",
+     "Wheat"
+    ],
+    0
+   ]
+  ],
+  "wyr": [
+   [
+    "Have unlimited access to any library",
+    "Have unlimited access to any museum"
+   ],
+   [
+    "Be able to control plants",
+    "Be able to control weather in a small area"
+   ],
+   [
+    "Have a personal genie with 3 wishes a year",
+    "Have a magic lamp that grants small wishes daily"
+   ],
+   [
+    "Live in a floating city",
+    "Live in an underwater city"
+   ],
+   [
+    "Have the power to speak any language instantly",
+    "Have the power to play any instrument instantly"
+   ],
+   [
+    "Always get the front row seat",
+    "Always get the best parking spot"
+   ],
+   [
+    "Be able to change your height at will",
+    "Be able to change your voice at will"
+   ],
+   [
+    "Have a pet that can talk",
+    "Have a pet that can grant wishes"
+   ],
+   [
+    "Never have to sleep but need to eat more",
+    "Never have to eat but need to sleep more"
+   ],
+   [
+    "Have the ability to pause conversations",
+    "Have the ability to replay conversations"
+   ],
+   [
+    "Live a simple quiet life",
+    "Live an exciting unpredictable life"
+   ],
+   [
+    "Have unlimited data but slow internet",
+    "Have limited data but blazing fast internet"
+   ],
+   [
+    "Be able to talk to your childhood self",
+    "Be able to talk to your future grandchildren"
+   ],
+   [
+    "Have a house with a secret room",
+    "Have a house with a hidden passage"
+   ],
+   [
+    "Only eat food from one country forever",
+    "Only eat food from one restaurant forever"
+   ],
+   [
+    "Have the power to make anyone laugh",
+    "Have the power to make anyone calm down"
+   ],
+   [
+    "Be a professional chef",
+    "Be a professional athlete"
+   ],
+   [
+    "Have unlimited art supplies",
+    "Have unlimited music equipment"
+   ],
+   [
+    "Live where it's always spring",
+    "Live where it's always autumn"
+   ],
+   [
+    "Have a job with total freedom but no security",
+    "Have a job with total security but no freedom"
+   ],
+   [
+    "Be able to talk to sea creatures",
+    "Be able to talk to birds"
+   ],
+   [
+    "Have the memory of an elephant",
+    "Have the strength of an ant relative to size"
+   ],
+   [
+    "Never have to apologize",
+    "Never have to say thank you"
+   ],
+   [
+    "Have a garden of your dreams",
+    "Have a library of your dreams"
+   ],
+   [
+    "Be able to fast forward through pain",
+    "Be able to rewind through joy"
+   ],
+   [
+    "Have unlimited free coffee for life",
+    "Have unlimited free books for life"
+   ],
+   [
+    "Live somewhere with no phones allowed",
+    "Live somewhere with no cars allowed"
+   ],
+   [
+    "Have the ability to see auras",
+    "Have the ability to sense danger before it happens"
+   ],
+   [
+    "Be known for your wisdom",
+    "Be known for your creativity"
+   ],
+   [
+    "Have a permanent rainbow follow you",
+    "Have a permanent gentle breeze follow you"
+   ]
+  ]
+ }
+}
