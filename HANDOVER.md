@@ -134,7 +134,40 @@ The Month 2 builders (`studio2/month2_batch.py`) narrate: the riddle/question is
 
 
 
-## 7. Composio usage patterns worth keeping
+## 8. Posting schedule — data-driven, updated after analytics review
+
+After Month 2 accumulated real view data, an analytics pass (Data API `videos.list` statistics correlated against each video's actual publish hour, 122-video sample) found a clear pattern:
+
+**Best hours (UTC), ranked, all with n≥6 sample size:** 16:00 (688 avg views), 17:00 (468), 05:00 (399), 01:00 (390), 13:00 (350), 20:00 (347), 09:00 (339).
+**Worst hour:** 21:00 UTC — 84 avg views across a full 12-video sample. Avoid this slot.
+**By weekday:** Thursday/Tuesday/Monday outperform; Sunday underperforms despite the largest sample (28 videos) — a real pattern worth keeping in mind, though daily posting consistency still matters more than skipping weak days entirely.
+
+**Current live schedule (adopted from this analysis):** 6/day at **01:00, 05:00, 09:00, 13:00, 16:00, 20:00 UTC**. All future uploads should use this hour set instead of an arbitrary fixed interval. This replaced an earlier naive "every 4 hours starting from whenever" approach that happened to land some videos in the weak 21:00 slot. All previously-pending Month 2 videos were reshuffled onto this new schedule (condensed from a tail stretching to Aug 21 down to just Aug 6-7).
+
+**Caveat:** this analysis used YouTube Data API statistics (view/like counts) as a proxy, not true YouTube Analytics "when your audience is active" data — that requires a `yt-analytics.readonly` OAuth scope that the current connection doesn't have, and getting it requires a manual reconnect (the channel owner would need to grant it, similar to the "advanced feature access" needed for Related Video). A dedicated `youtubeanalytics` Composio toolkit exists in principle but returned "Toolkit not found" when connection was attempted — may need the channel owner to set this up from their end if real analytics access is wanted. If that scope ever gets added, re-verify this hour ranking against real audience-activity data rather than assuming the proxy analysis is final.
+
+**Recommendation for the next agent:** re-run this same analysis periodically (e.g. after each month's content has had a couple weeks to accumulate views) to see if the pattern holds or shifts, rather than treating this one-time snapshot as permanent.
+
+---
+
+## 9. Long-form episodes — status
+
+1. **Movies & Series Trivia Ep. 1** — video ID `-tem5EZbavM`. Music+SFX only (no narration), ~8:08.
+2. **General Trivia Ep. 1** — video ID `vOUs4qeYOTs`. **First narrated long-form episode**, using Piper TTS (see section 7). ~8:35. 30 questions (10 genuinely sourced from Open Trivia DB via the session-token trick below, 20 hand-written, verified zero duplicates against both Month 1 and Month 2 Shorts banks). Public and live.
+
+### Lesson: the Open Trivia DB caching problem has a real fix — session tokens
+Earlier sessions found `web_fetch` caches by a normalized version of the URL (seemingly ignoring most query params beyond `amount`), making it impossible to get varied fresh batches by just changing `category`/`difficulty`. **The fix: request a session token first** (`GET https://opentdb.com/api_token.php?command=request`, search for the URL first since web_fetch requires a prior search hit), then include that token in the actual questions request (`&token=...`). Since the token makes the URL genuinely unique, it bypasses the cache and returns real fresh questions — confirmed working, got 10 genuinely new questions this way for General Trivia Ep. 1. **Still only reliably yields one fresh batch per session** — further variations on the same request pattern re-hit the cache — so budget for "10 real questions per episode, write the rest by hand in matching style" as the realistic sourcing pattern, not "fetch all 25-30 for free."
+
+### Building narrated long-form: key implementation notes for the next episode
+- The long-form renderer (`generaltrivia/render.py`, adapt by copying) originally used **fixed timing** (10s think + 3.5s hold per question, always the same regardless of content). Adding narration requires **variable, speech-length-dependent timing** instead — same lesson as the Shorts pipeline.
+- **Critical: cache the TTS timeline.** With 30 questions × 2 narration lines (question + answer) = 60 Piper calls, and the render script being invoked many times across chunked frame-rendering calls (segmented rendering is required for long-form — see below), naively re-running all 60 TTS calls on every invocation wastes huge amounts of time. Build the timeline once, pickle it to disk, and load from cache on subsequent invocations of the same script. See `build_timeline()` / `CACHE` pattern in `generaltrivia/render.py`.
+- **Watch the total duration vs. the 8-minute mid-roll-ad threshold.** Narration timing is unpredictable until you actually run it — the first narrated pass of General Trivia Ep. 1 came in at only 5:51 (too short), requiring a bump to the per-question think-time (6.0s→11.0s) and a re-render to land at 8:35. Always check `TOTAL` after building the timeline and adjust `THINK`/`REVEAL_HOLD` before committing to the full frame render, since a full re-render is expensive (12,000+ frames).
+- **Rendering a long-form video is too slow for one continuous encode.** Use the same segmented approach as Episode 1: render frames to PNGs in chunks (`range START END`), encode each chunk to its own small MP4 (`seg START END IDX`), concatenate (`concat N`), then build audio and mux (`mux`). A full episode needs roughly 4 segment-encode calls plus several frame-range calls — budget ~8-10 tool calls total for one episode.
+- **Always verify audio thoroughly before sharing or uploading**, even with Piper's good track record: check RMS (~0.07-0.10 is healthy for narration+music), zero NaN, zero samples with `|x|>0.999` across the *entire* decoded track, not just a sample. This has caught real problems before (KittenTTS) and costs almost nothing to run.
+
+---
+
+## 10. Composio usage patterns worth keeping
 
 - `run_composio_tool("YOUTUBE_MULTIPART_UPLOAD_VIDEO", payload)` — payload needs `videoFile: {name, mimetype, s3key}`; get `s3key` from `upload_local_file(path)` first.
 - `proxy_execute("PUT", "/videos", "youtube", query_params={"part": "status"}, body={...})` — this is how scheduling (`publishAt`) gets set; the multipart upload tool itself has **no scheduling field**.
