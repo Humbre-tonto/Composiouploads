@@ -1,5 +1,72 @@
 # The Daily Brainy — Channel Handover
 
+## ⚡ QUICKSTART (read this first)
+
+**Channel:** `@thedailybrainy` | **ID:** `UC5tO4ZljncAqK15KAxjU-hA`
+**Owner account:** mheldinm93@gmail.com
+**Repo:** `Humbre-tonto/Composiouploads` (staging bridge — not a permanent archive)
+
+### Session checklist (do in this order every time)
+
+1. **Verify channel** before touching YouTube — always run this first:
+   ```python
+   run_composio_tool("YOUTUBE_GET_CHANNEL_STATISTICS", {"mine": True, "part": "snippet"})
+   # assert title == "The Daily Brainy"
+   ```
+   The connection has silently pointed at wrong channels before. If it's not The Daily Brainy, stop and tell the human.
+
+2. **Check manifest.json** (fetch from repo raw URL) to know what's already uploaded — don't re-upload what's already there.
+
+3. **Check pending count** before scheduling — query the channel's uploads playlist filtered by `privacyStatus=private`. Best posting slots: **01:00, 05:00, 09:00, 13:00, 16:00, 20:00 UTC** (data-driven from 122-video analysis — see Section 8).
+
+4. **Rendering** — pipeline lives in `pipeline/` subfolder of this repo. Download to sandbox, install deps, go:
+   ```bash
+   pip install soundfile piper-tts --break-system-packages
+   # voice model auto-downloads from this repo on first use (piper_voice.py)
+   python3 pipeline/month3_batch.py 1 30   # renders month3, days 1-30
+   ```
+   Check renders with: `ls /mnt/user-data/outputs/month3/*.mp4 | wc -l` (should be 90)
+
+5. **Pushing to GitHub** — use `git clone` + `git push` with the token as basic-auth in the remote URL for any file >5MB. The REST API (`PUT /contents/{name}`) works for small files but errors on large ones.
+
+6. **Uploading to YouTube** — stage via `upload_local_file(path)` → `s3key` → `YOUTUBE_MULTIPART_UPLOAD_VIDEO`. Schedule via `proxy_execute("PUT", "/videos", "youtube", ...)`. YouTube's daily upload quota is ~14–18 videos; stop cleanly on quota errors, don't retry-loop.
+
+7. **Update manifest.json** after every successful upload session — push it back to the repo.
+
+### Key files in this repo
+| File | Purpose |
+|------|---------|
+| `manifest.json` | Source of truth for what's uploaded (544 entries: 540 shorts + 4 long-form) |
+| `months3-6_content.json` | Fact-or-Fake, Quiz, WYR content banks for months 3–6 |
+| `month2_content.json` | Month 2 content bank |
+| `pipeline/da_lib.py` | Shared visual/audio rendering helpers |
+| `pipeline/piper_voice.py` | Piper TTS wrapper (auto-downloads voice model from this repo) |
+| `pipeline/month3_batch.py` | Month 3 renderer (Fact-or-Fake + Quiz + WYR) |
+| `pipeline/month4_batch.py` | Month 4 renderer |
+| `pipeline/month5_batch.py` | Month 5 renderer |
+| `pipeline/month6_batch.py` | Month 6 renderer |
+| `piper_en-us-lessac-medium.onnx` | Piper voice model (~60MB) |
+| `piper_en-us-lessac-medium.onnx.json` | Piper voice model config |
+| `HANDOVER.md` | This document |
+
+### Current content state (as of last update)
+- **Months 1–6** — all 540 Shorts uploaded and scheduled, Aug 6–22 cadence
+- **Long-form episodes live:**
+  - Movies & Series Trivia Ep. 1 → `youtu.be/-tem5EZbavM`
+  - General Trivia Ep. 1 → `youtu.be/vOUs4qeYOTs`
+  - Songs & Pop Culture Ep. 1 → `youtu.be/0PKYTSpiX8o`
+  - Disney & Pixar Trivia Ep. 1 → `youtu.be/jsm3yWgv9mQ`
+- **Next to build:** Month 7+ content (new riddles/quiz/WYR verified against all prior months), or Sports / Science & Biology / 90s Nostalgia long-form episodes
+
+### Immediate next actions
+1. Push Months 4–6 MP4s to GitHub (Month 3 and all long-form already pushed)
+2. Upload and schedule Months 4, 5, 6 to YouTube (one month per quota session)
+3. Add new episode video IDs to `LONG_FORM_EPISODES` rotation in `pipeline/da_lib.py`
+4. Plan Month 7 content (use `months3-6_content.json` as the duplicate-check reference)
+
+---
+
+
 **Channel:** The Daily Brainy — `@thedailybrainy`
 **Channel ID:** `UC5tO4ZljncAqK15KAxjU-hA`
 **Owner:** mheldinm93@gmail.com (Google account) — verify with the human before any upload, channel identity has flipped unexpectedly before (see Known Issues).
