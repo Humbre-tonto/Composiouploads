@@ -106,13 +106,3 @@ def encode(render_fn, total, out_path):
         "-map","0:v","-map","[a]","-c:v","copy","-c:a","aac","-b:a","176k","-shortest",out_path],
         stdout=open(f"{DIR}/_mux.log","w"),stderr=subprocess.STDOUT)
     return out_path
-
-# ============ LONG-FORM EPISODES (for SEO cross-promo rotation) ============
-# Add new episode video IDs here as they go live.
-# Used by seo_meta.py (in studio/) to inject clickable links into Short descriptions.
-LONG_FORM_EPISODES=[
-    {"id":"-tem5EZbavM","title":"Movies & Series Trivia Ep. 1"},
-    {"id":"vOUs4qeYOTs","title":"General Trivia Ep. 1"},
-    {"id":"0PKYTSpiX8o","title":"Songs & Pop Culture Trivia Ep. 1"},
-    {"id":"jsm3yWgv9mQ","title":"Disney & Pixar Trivia Ep. 1"},
-]
