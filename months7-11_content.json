@@ -1,0 +1,2742 @@
+{
+ "month7": {
+  "fact_or_fake": [
+   [
+    "A day on Mercury lasts longer than a year on Mercury.",
+    true,
+    "Mercury rotates so slowly that one day takes 176 Earth days, while its year is only 88 Earth days."
+   ],
+   [
+    "The human body contains enough carbon to make about 9,000 pencils.",
+    true,
+    "The carbon in the human body, if extracted, would fill thousands of pencils."
+   ],
+   [
+    "Hot water freezes faster than cold water under some conditions.",
+    true,
+    "This is called the Mpemba effect, observed and studied since ancient times."
+   ],
+   [
+    "The sun makes up about 99.8% of the total mass of our solar system.",
+    true,
+    "Almost all the mass in our solar system is concentrated in the sun."
+   ],
+   [
+    "Sound travels faster through water than through air.",
+    true,
+    "Sound moves about 4.3 times faster in water than in air due to water's density."
+   ],
+   [
+    "All mammals can swim instinctively from birth.",
+    false,
+    "Many land mammals can swim without training, but not all \u2014 and some, like giraffes, struggle significantly."
+   ],
+   [
+    "A bolt of lightning contains enough energy to toast 100,000 slices of bread.",
+    true,
+    "A single lightning bolt carries roughly 250 kilowatt-hours of energy \u2014 enough to power a lot of toasters."
+   ],
+   [
+    "Octopuses have blue blood.",
+    true,
+    "Octopus blood contains hemocyanin (copper-based) rather than hemoglobin, making it blue."
+   ],
+   [
+    "The largest known star is about 100 times the size of our sun.",
+    false,
+    "The largest known stars (like UY Scuti) are over 1,700 times the radius of our sun."
+   ],
+   [
+    "Trees communicate with each other through underground fungal networks.",
+    true,
+    "Known as the 'Wood Wide Web', trees share nutrients and signals via mycorrhizal fungi."
+   ],
+   [
+    "Humans share about 60% of their DNA with bananas.",
+    true,
+    "This reflects common evolutionary building blocks shared across all life on Earth."
+   ],
+   [
+    "The Sahara Desert was once covered in grassland and lakes.",
+    true,
+    "Around 6,000\u201310,000 years ago, the Sahara experienced a 'Green Sahara' period with rivers and wildlife."
+   ],
+   [
+    "Water can exist in three states but not simultaneously.",
+    false,
+    "The triple point of water allows it to exist as solid, liquid, and gas simultaneously at a specific temperature and pressure."
+   ],
+   [
+    "Sharks are older than trees as a species.",
+    true,
+    "Sharks have existed for roughly 450 million years; trees only appeared about 360 million years ago."
+   ],
+   [
+    "Humans have a stronger sense of smell than dogs.",
+    false,
+    "Dogs have up to 300 million olfactory receptors vs. humans' 6 million, giving them a far superior sense of smell."
+   ],
+   [
+    "The moon is slowly moving away from Earth.",
+    true,
+    "The moon drifts about 3.8 cm farther from Earth each year due to tidal interactions."
+   ],
+   [
+    "Sunflowers track the sun throughout the day.",
+    true,
+    "Young sunflowers follow the sun (heliotropism); mature ones typically face east permanently."
+   ],
+   [
+    "Lightning strikes Earth about 100 times per second on average.",
+    true,
+    "Roughly 8 million lightning strikes hit Earth every day \u2014 that's about 100 per second."
+   ],
+   [
+    "The hardest natural material after diamond is graphene.",
+    false,
+    "After diamond, the next hardest natural mineral is generally moissanite (silicon carbide)."
+   ],
+   [
+    "The tongue is the strongest muscle in the human body.",
+    false,
+    "The masseter (jaw muscle) is often cited as the strongest by force; the tongue is not technically a single muscle."
+   ],
+   [
+    "The human eye can distinguish over 10 million different colors.",
+    true,
+    "The human visual system can theoretically distinguish between 10 million or more distinct colors."
+   ],
+   [
+    "Neutron stars are so dense that a teaspoon of their material weighs about a billion tons.",
+    true,
+    "Neutron star matter is extraordinarily compressed \u2014 a teaspoon would weigh about 10 million tons."
+   ],
+   [
+    "Cats always land on their feet due to a reflex called 'aerial righting'.",
+    true,
+    "Cats have a 'righting reflex' that allows them to rotate mid-fall to land feet first."
+   ],
+   [
+    "Glass is technically a very slow-moving liquid.",
+    false,
+    "This is a popular myth; old glass being thicker at the bottom is due to manufacturing, not flow."
+   ],
+   [
+    "Honey bees must visit approximately 2 million flowers to make one pound of honey.",
+    true,
+    "Bees travel enormous cumulative distances and visit millions of flowers to produce honey."
+   ],
+   [
+    "There are more atoms in a glass of water than glasses of water in all Earth's oceans.",
+    true,
+    "A glass of water contains roughly 10\u00b2\u2075 molecules \u2014 far more than the number of glassfuls in all the oceans."
+   ],
+   [
+    "A mitochondrion can make copies of itself independently of the cell.",
+    true,
+    "Mitochondria have their own DNA and divide independently, supporting the endosymbiotic theory of their origin."
+   ],
+   [
+    "The Earth's inner core rotates slightly faster than the rest of the planet.",
+    true,
+    "Scientific studies suggest the inner core rotates at a slightly different rate than the outer layers."
+   ],
+   [
+    "Elephants are the only animals that cannot jump.",
+    false,
+    "Many animals cannot jump, including hippos, rhinos, and sloths \u2014 not just elephants."
+   ],
+   [
+    "Human fingernails grow faster on the dominant hand.",
+    true,
+    "Research shows nails grow slightly faster on the hand you use more, likely due to increased blood flow."
+   ]
+  ],
+  "quizzes": [
+   [
+    "What is the powerhouse of the cell?",
+    [
+     "Nucleus",
+     "Mitochondria",
+     "Ribosome"
+    ],
+    1
+   ],
+   [
+    "Which force causes tides on Earth?",
+    [
+     "Solar wind",
+     "Gravity from the Moon",
+     "Earth rotation"
+    ],
+    1
+   ],
+   [
+    "What is the chemical formula for water?",
+    [
+     "HO",
+     "H2O",
+     "H2O2"
+    ],
+    1
+   ],
+   [
+    "What force keeps planets in orbit around the sun?",
+    [
+     "Magnetism",
+     "Friction",
+     "Gravity"
+    ],
+    2
+   ],
+   [
+    "What is the speed of light in a vacuum (approximately)?",
+    [
+     "300,000 km/s",
+     "150,000 km/s",
+     "450,000 km/s"
+    ],
+    0
+   ],
+   [
+    "Which element has the atomic number 6?",
+    [
+     "Nitrogen",
+     "Carbon",
+     "Oxygen"
+    ],
+    1
+   ],
+   [
+    "What is the process by which plants make food using sunlight?",
+    [
+     "Respiration",
+     "Photosynthesis",
+     "Transpiration"
+    ],
+    1
+   ],
+   [
+    "What is the most abundant gas in Earth's atmosphere?",
+    [
+     "Oxygen",
+     "Carbon dioxide",
+     "Nitrogen"
+    ],
+    2
+   ],
+   [
+    "What organ pumps blood around the human body?",
+    [
+     "Liver",
+     "Lungs",
+     "Heart"
+    ],
+    2
+   ],
+   [
+    "Which is the largest planet in our solar system?",
+    [
+     "Saturn",
+     "Jupiter",
+     "Uranus"
+    ],
+    1
+   ],
+   [
+    "What force opposes motion between two surfaces in contact?",
+    [
+     "Gravity",
+     "Friction",
+     "Tension"
+    ],
+    1
+   ],
+   [
+    "What is the center of an atom called?",
+    [
+     "Electron",
+     "Nucleus",
+     "Proton"
+    ],
+    1
+   ],
+   [
+    "What is the name of the process by which cells divide?",
+    [
+     "Mitosis",
+     "Osmosis",
+     "Meiosis"
+    ],
+    0
+   ],
+   [
+    "What is the approximate temp at the centre of the sun?",
+    [
+     "1 million\u00b0C",
+     "15 million\u00b0C",
+     "100,000\u00b0C"
+    ],
+    1
+   ],
+   [
+    "What is the boiling point of water at sea level in Celsius?",
+    [
+     "90\u00b0C",
+     "100\u00b0C",
+     "110\u00b0C"
+    ],
+    1
+   ],
+   [
+    "What do you call animals that eat only plants?",
+    [
+     "Carnivores",
+     "Herbivores",
+     "Omnivores"
+    ],
+    1
+   ],
+   [
+    "What is the process of a solid turning directly into gas?",
+    [
+     "Evaporation",
+     "Condensation",
+     "Sublimation"
+    ],
+    2
+   ],
+   [
+    "What does a seismometer measure?",
+    [
+     "Wind speed",
+     "Earthquakes",
+     "Air pressure"
+    ],
+    1
+   ],
+   [
+    "What gas do plants absorb during photosynthesis?",
+    [
+     "Oxygen",
+     "Carbon dioxide",
+     "Nitrogen"
+    ],
+    1
+   ],
+   [
+    "Which part of the brain controls balance and coordination?",
+    [
+     "Cerebrum",
+     "Cerebellum",
+     "Brainstem"
+    ],
+    1
+   ],
+   [
+    "What is the name of the force that causes objects to fall toward Earth?",
+    [
+     "Momentum",
+     "Gravity",
+     "Inertia"
+    ],
+    1
+   ],
+   [
+    "What is DNA an abbreviation for?",
+    [
+     "Deoxyribonucleic acid",
+     "Dinucleotide acid",
+     "Double nucleic acid"
+    ],
+    0
+   ],
+   [
+    "Which organ is responsible for filtering blood in humans?",
+    [
+     "Liver",
+     "Kidneys",
+     "Spleen"
+    ],
+    1
+   ],
+   [
+    "How long does it take light from the sun to reach Earth?",
+    [
+     "About 1 minute",
+     "About 8 minutes",
+     "About 1 hour"
+    ],
+    1
+   ],
+   [
+    "What is the name of the layer of Earth's atmosphere that protects us from UV rays?",
+    [
+     "Troposphere",
+     "Ozone layer",
+     "Ionosphere"
+    ],
+    1
+   ],
+   [
+    "What is the chemical symbol for gold?",
+    [
+     "Go",
+     "Gd",
+     "Au"
+    ],
+    2
+   ],
+   [
+    "Which gas makes up most of the sun?",
+    [
+     "Helium",
+     "Hydrogen",
+     "Oxygen"
+    ],
+    1
+   ],
+   [
+    "What type of energy does a stretched spring have?",
+    [
+     "Kinetic energy",
+     "Thermal energy",
+     "Potential energy"
+    ],
+    2
+   ],
+   [
+    "What do you call the process by which water vapor turns into liquid?",
+    [
+     "Evaporation",
+     "Condensation",
+     "Sublimation"
+    ],
+    1
+   ],
+   [
+    "Which scientist developed the theory of evolution by natural selection?",
+    [
+     "Isaac Newton",
+     "Charles Darwin",
+     "Gregor Mendel"
+    ],
+    1
+   ]
+  ],
+  "wyr": [
+   [
+    "Be able to see in the dark like a cat",
+    "Have the hearing range of a bat"
+   ],
+   [
+    "Breathe underwater indefinitely",
+    "Survive in space without a suit"
+   ],
+   [
+    "Be immune to all diseases",
+    "Never need to sleep"
+   ],
+   [
+    "Have photosynthesis ability like a plant",
+    "Be able to echolocate like a dolphin"
+   ],
+   [
+    "Know exactly what the weather will be every day",
+    "Control the weather yourself"
+   ],
+   [
+    "Have the strength of an ant relative to your body size",
+    "Have the speed of a cheetah"
+   ],
+   [
+    "Only eat raw food forever",
+    "Only drink water \u2014 no other beverages"
+   ],
+   [
+    "Have perfect 20/20 vision with no glasses",
+    "Have perfect 20/20 hearing with no aid"
+   ],
+   [
+    "Live on the moon",
+    "Live under the sea"
+   ],
+   [
+    "Have a sixth sense for danger",
+    "Have an eighth sense for finding lost things"
+   ],
+   [
+    "Be able to regrow limbs like a salamander",
+    "Have the healing speed of a flatworm"
+   ],
+   [
+    "Never get sunburned",
+    "Never get a cold"
+   ],
+   [
+    "Have the memory of an elephant",
+    "Have the strength of a gorilla"
+   ],
+   [
+    "Know the exact cause of every illness you get",
+    "Know exactly how to cure it"
+   ],
+   [
+    "Be able to survive extreme cold",
+    "Be able to survive extreme heat"
+   ],
+   [
+    "Have the lifespan of a tortoise",
+    "Have the energy level of a hummingbird"
+   ],
+   [
+    "Have the navigation sense of a bird",
+    "Have the sense of smell of a bear"
+   ],
+   [
+    "Hibernate for 6 months like a bear",
+    "Only need 2 hours of sleep per night"
+   ],
+   [
+    "Be able to hold your breath for 20 minutes",
+    "Be able to run 100km without stopping"
+   ],
+   [
+    "Have the camouflage ability of a cuttlefish",
+    "Have the bioluminescence of a deep-sea fish"
+   ],
+   [
+    "Only eat things you grow yourself",
+    "Only eat things prepared by professional chefs"
+   ],
+   [
+    "Be able to survive a year with no food",
+    "Be able to survive a year with no sunlight"
+   ],
+   [
+    "Have a perfect internal clock, never late",
+    "Have perfect spatial awareness, never lost"
+   ],
+   [
+    "Spend a month on the International Space Station",
+    "Spend a month at a deep-ocean research station"
+   ],
+   [
+    "Have bones as light as a bird's",
+    "Have skin as tough as a crocodile's"
+   ],
+   [
+    "See ultraviolet light like a bee",
+    "Hear infrasound like an elephant"
+   ],
+   [
+    "Have the regeneration ability of a starfish",
+    "Have the immunity of a naked mole rat"
+   ],
+   [
+    "Explore a newly discovered cave system",
+    "Explore a newly discovered ocean trench"
+   ],
+   [
+    "Know every species of animal by sight",
+    "Know every species of plant by sight"
+   ],
+   [
+    "Live in a rainforest for a year",
+    "Live in an arctic tundra for a year"
+   ]
+  ]
+ },
+ "month8": {
+  "fact_or_fake": [
+   [
+    "The Great Wall of China took over 1,000 years to build.",
+    true,
+    "Construction spanned from the 7th century BC to the 17th century AD \u2014 over 1,000 years of various dynasties building and extending it."
+   ],
+   [
+    "Julius Caesar was born by caesarean section.",
+    false,
+    "The 'Caesarean' name likely comes from a Latin root \u2014 Caesar's mother survived his birth, which would not have happened if C-sections were performed then."
+   ],
+   [
+    "The ancient Egyptians used toothpaste.",
+    true,
+    "They used a paste made from crushed rock salt, mint, dried iris flower, and pepper."
+   ],
+   [
+    "Vikings wore horned helmets.",
+    false,
+    "No archaeological evidence supports horned Viking helmets \u2014 that's a 19th-century myth popularized by artists."
+   ],
+   [
+    "The Trojan War was entirely fictional with no historical basis.",
+    false,
+    "Archaeological evidence at Hisarlik in Turkey suggests a real conflict around 1200 BC that likely inspired the legend."
+   ],
+   [
+    "Cleopatra was Egyptian by blood.",
+    false,
+    "Cleopatra was of Macedonian Greek descent, from the Ptolemaic dynasty."
+   ],
+   [
+    "Ancient Greeks had a word for being bored.",
+    false,
+    "Ancient Greek had no single word equivalent to modern boredom \u2014 the concept as we know it emerged much later."
+   ],
+   [
+    "The Black Death was caused by a bacterium, not a virus.",
+    true,
+    "The Black Death was caused by Yersinia pestis, a bacterium spread by fleas on rats."
+   ],
+   [
+    "Napoleon was unusually short for his time.",
+    false,
+    "He stood around 5'7'' \u2014 average for a French man of his era. The myth came partly from a British propaganda nickname."
+   ],
+   [
+    "The Eiffel Tower was built as a permanent Parisian landmark.",
+    false,
+    "It was originally intended to be a temporary structure for the 1889 World's Fair and was nearly demolished."
+   ],
+   [
+    "Ancient Romans used urine as a mouthwash.",
+    true,
+    "The ammonia in urine was valued as a cleaning agent, and Roman toothpaste and mouthwash recipes included it."
+   ],
+   [
+    "King Tutankhamun died in battle.",
+    false,
+    "Evidence suggests he died from complications of malaria combined with a broken leg, likely not in battle."
+   ],
+   [
+    "The first printed book was the Gutenberg Bible.",
+    true,
+    "Johannes Gutenberg's Bible, printed around 1455, is considered the first major book printed using movable type in Europe."
+   ],
+   [
+    "Ancient Mayans invented the concept of zero.",
+    true,
+    "The Maya independently developed a positional number system that included zero, around the 4th century AD."
+   ],
+   [
+    "The Statue of Liberty was originally intended for Egypt.",
+    true,
+    "The sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi originally pitched a similar design to Egypt for the Suez Canal before proposing it to the USA."
+   ],
+   [
+    "The hundred years war lasted exactly 100 years.",
+    false,
+    "The Hundred Years' War lasted 116 years, from 1337 to 1453."
+   ],
+   [
+    "Ancient Greeks invented the first alarm clock.",
+    true,
+    "Ctesibius of Alexandria invented a water clock that could ring an alarm, around 250 BC."
+   ],
+   [
+    "Marie Curie is the only person to have won Nobel Prizes in two different sciences.",
+    true,
+    "She won the Nobel Prize in Physics (1903) and Chemistry (1911)."
+   ],
+   [
+    "The first Olympics only allowed married women to compete.",
+    false,
+    "Married women were actually forbidden from attending or competing; only unmarried women could attend certain events."
+   ],
+   [
+    "The Wright Brothers' first flight lasted less than a minute.",
+    true,
+    "Orville Wright's first controlled flight at Kitty Hawk in 1903 lasted just 12 seconds."
+   ],
+   [
+    "Ancient Egyptians shaved their eyebrows when their cat died.",
+    true,
+    "As a sign of mourning for the sacred animal, family members would shave their eyebrows."
+   ],
+   [
+    "The word 'salary' comes from 'sal', the Latin word for salt.",
+    true,
+    "Roman soldiers were sometimes paid in salt, giving us the word 'salary'."
+   ],
+   [
+    "The first woman to run for U.S. President did so before women could vote.",
+    true,
+    "Victoria Woodhull ran for president in 1872, nearly 50 years before women's suffrage was granted."
+   ],
+   [
+    "Shakespeare invented over 1,700 words still used in English today.",
+    true,
+    "Words like 'bedroom', 'lonely', 'generous', and 'gloomy' are among those attributed to Shakespeare."
+   ],
+   [
+    "The Colosseum in Rome was used as a quarry in the Middle Ages.",
+    true,
+    "Romans recycled its travertine stone for other buildings, taking roughly 100,000 tonnes of material."
+   ],
+   [
+    "Christopher Columbus was trying to prove the Earth was round.",
+    false,
+    "Educated people already knew the Earth was round \u2014 Columbus was trying to find a western sea route to Asia."
+   ],
+   [
+    "Ancient Spartans used iron bars as currency to discourage hoarding wealth.",
+    true,
+    "Spartans deliberately used heavy, impractical iron bars to make wealth accumulation difficult."
+   ],
+   [
+    "The Black Death killed fewer than 10% of Europe's population.",
+    false,
+    "The Black Death killed an estimated 30\u201360% of Europe's population in the 14th century."
+   ],
+   [
+    "The term 'assassin' comes from an Arabic word related to hashish.",
+    true,
+    "The word derives from 'hashishin', a name given to the Nizari Ismailis, though the drug link is historically disputed."
+   ],
+   [
+    "Medieval peasants had no concept of vacation or leisure time.",
+    false,
+    "Medieval peasants had numerous religious feast days and market days that served as communal rest and celebration."
+   ]
+  ],
+  "quizzes": [
+   [
+    "In which country was the Eiffel Tower built?",
+    [
+     "Italy",
+     "France",
+     "Spain"
+    ],
+    1
+   ],
+   [
+    "Which ancient wonder was located in Alexandria, Egypt?",
+    [
+     "The Hanging Gardens",
+     "The Great Lighthouse",
+     "The Colossus"
+    ],
+    1
+   ],
+   [
+    "What year did World War II end?",
+    [
+     "1943",
+     "1945",
+     "1947"
+    ],
+    1
+   ],
+   [
+    "Who was the first President of the United States?",
+    [
+     "Abraham Lincoln",
+     "Benjamin Franklin",
+     "George Washington"
+    ],
+    2
+   ],
+   [
+    "Which empire was known as the largest land empire in history?",
+    [
+     "Roman Empire",
+     "British Empire",
+     "Mongol Empire"
+    ],
+    2
+   ],
+   [
+    "In which city was the Magna Carta signed?",
+    [
+     "London",
+     "Runnymede",
+     "Oxford"
+    ],
+    1
+   ],
+   [
+    "What was the name of the ship that sank on its maiden voyage in 1912?",
+    [
+     "Britannic",
+     "Lusitania",
+     "Titanic"
+    ],
+    2
+   ],
+   [
+    "Which civilisation built Machu Picchu?",
+    [
+     "Aztec",
+     "Maya",
+     "Inca"
+    ],
+    2
+   ],
+   [
+    "What language did the ancient Romans speak?",
+    [
+     "Greek",
+     "Latin",
+     "Italian"
+    ],
+    1
+   ],
+   [
+    "Who wrote 'The Art of War'?",
+    [
+     "Confucius",
+     "Sun Tzu",
+     "Lao Tzu"
+    ],
+    1
+   ],
+   [
+    "Which country was the first to give women the right to vote nationally?",
+    [
+     "USA",
+     "New Zealand",
+     "UK"
+    ],
+    1
+   ],
+   [
+    "In which country did the Renaissance begin?",
+    [
+     "France",
+     "Spain",
+     "Italy"
+    ],
+    2
+   ],
+   [
+    "What was the name of the first artificial satellite launched into space?",
+    [
+     "Sputnik",
+     "Explorer",
+     "Vostok"
+    ],
+    0
+   ],
+   [
+    "Which ancient civilisation built the Colosseum?",
+    [
+     "Greek",
+     "Egyptian",
+     "Roman"
+    ],
+    2
+   ],
+   [
+    "What was the capital of the Ottoman Empire?",
+    [
+     "Cairo",
+     "Istanbul",
+     "Baghdad"
+    ],
+    1
+   ],
+   [
+    "In what year did the Berlin Wall fall?",
+    [
+     "1985",
+     "1989",
+     "1991"
+    ],
+    1
+   ],
+   [
+    "Which explorer is credited with first circumnavigating the globe?",
+    [
+     "Columbus",
+     "Magellan",
+     "Drake"
+    ],
+    1
+   ],
+   [
+    "What was the name of the first European to reach India by sea?",
+    [
+     "Vasco da Gama",
+     "Columbus",
+     "Marco Polo"
+    ],
+    0
+   ],
+   [
+    "In which country is the ancient city of Petra located?",
+    [
+     "Egypt",
+     "Jordan",
+     "Israel"
+    ],
+    1
+   ],
+   [
+    "What was the name of the Cold War space race that landed humans on the moon?",
+    [
+     "Apollo Program",
+     "Gemini Program",
+     "Mercury Program"
+    ],
+    0
+   ],
+   [
+    "Which war was fought between the North and South of the United States?",
+    [
+     "Revolutionary War",
+     "Civil War",
+     "War of 1812"
+    ],
+    1
+   ],
+   [
+    "Who was the ancient Egyptian god of the sun?",
+    [
+     "Osiris",
+     "Ra",
+     "Anubis"
+    ],
+    1
+   ],
+   [
+    "What does the Latin phrase 'Veni, Vidi, Vici' mean?",
+    [
+     "I came, I fought, I won",
+     "I came, I saw, I conquered",
+     "I lived, I loved, I lost"
+    ],
+    1
+   ],
+   [
+    "In which century did the Industrial Revolution begin?",
+    [
+     "17th century",
+     "18th century",
+     "19th century"
+    ],
+    1
+   ],
+   [
+    "Which country did Napoleon Bonaparte come from originally?",
+    [
+     "France",
+     "Italy",
+     "Corsica"
+    ],
+    2
+   ],
+   [
+    "What was the name of the trade route connecting China to Europe?",
+    [
+     "Spice Route",
+     "Silk Road",
+     "Golden Road"
+    ],
+    1
+   ],
+   [
+    "Which ancient wonder of the world still exists today?",
+    [
+     "The Hanging Gardens of Babylon",
+     "The Great Pyramid of Giza",
+     "The Colossus of Rhodes"
+    ],
+    1
+   ],
+   [
+    "Who was the first person to walk in space?",
+    [
+     "Yuri Gagarin",
+     "Alexei Leonov",
+     "Neil Armstrong"
+    ],
+    1
+   ],
+   [
+    "What did the Aztecs call their capital city?",
+    [
+     "Texcoco",
+     "Tenochtitlan",
+     "Tula"
+    ],
+    1
+   ],
+   [
+    "During which war was the Battle of Waterloo fought?",
+    [
+     "World War I",
+     "The Napoleonic Wars",
+     "The Seven Years War"
+    ],
+    1
+   ]
+  ],
+  "wyr": [
+   [
+    "Live as a Roman gladiator for one year",
+    "Live as a medieval knight for one year"
+   ],
+   [
+    "Witness the building of the Great Pyramid",
+    "Witness the construction of the Eiffel Tower"
+   ],
+   [
+    "Meet Julius Caesar",
+    "Meet Cleopatra"
+   ],
+   [
+    "Explore ancient Rome at its peak",
+    "Explore ancient Egypt at its peak"
+   ],
+   [
+    "Be a crew member on Columbus's voyage to America",
+    "Be a crew member on Magellan's first circumnavigation"
+   ],
+   [
+    "Attend the original Olympic Games in ancient Greece",
+    "Attend the first modern Olympics in 1896 Athens"
+   ],
+   [
+    "Have studied under Aristotle",
+    "Have studied under Leonardo da Vinci"
+   ],
+   [
+    "Live through the Renaissance in Florence",
+    "Live through the Roaring Twenties in Paris"
+   ],
+   [
+    "Have been a member of the Spartan army",
+    "Have been a member of the Samurai class"
+   ],
+   [
+    "Be present at the signing of the Magna Carta",
+    "Be present at the signing of the Declaration of Independence"
+   ],
+   [
+    "Have sailed with the Vikings",
+    "Have marched with the Roman legions"
+   ],
+   [
+    "Live during the golden age of ancient Greece",
+    "Live during the golden age of the Islamic Golden Age"
+   ],
+   [
+    "Read the first ever printed book",
+    "Witness the first flight at Kitty Hawk"
+   ],
+   [
+    "Be a scribe in ancient Egypt",
+    "Be a philosopher in ancient Athens"
+   ],
+   [
+    "Attend a Shakespeare play in the original Globe Theatre",
+    "Attend the premiere of Beethoven's Ninth Symphony"
+   ],
+   [
+    "Discover a lost ancient civilisation",
+    "Decipher an undeciphered ancient script"
+   ],
+   [
+    "Have designed the Colosseum",
+    "Have designed the Great Wall of China"
+   ],
+   [
+    "Be a merchant on the Silk Road",
+    "Be a merchant in a medieval European trade fair"
+   ],
+   [
+    "Live in a medieval castle",
+    "Live in an ancient Roman villa"
+   ],
+   [
+    "Be a court painter for King Louis XIV",
+    "Be a court poet for Queen Elizabeth I"
+   ],
+   [
+    "Witness the fall of Constantinople",
+    "Witness the fall of the Berlin Wall"
+   ],
+   [
+    "Cook for a medieval king",
+    "Cook for an ancient Roman emperor"
+   ],
+   [
+    "Experience the French Revolution",
+    "Experience the American Revolution"
+   ],
+   [
+    "Have been an astronomer in ancient Babylon",
+    "Have been a mathematician in ancient Alexandria"
+   ],
+   [
+    "Sail on the Nile in ancient Egypt",
+    "Sail on the Thames in Tudor England"
+   ],
+   [
+    "Be an advisor to Napoleon",
+    "Be an advisor to Genghis Khan"
+   ],
+   [
+    "Speak every language of the ancient world",
+    "Read every book ever written in the ancient world"
+   ],
+   [
+    "Travel the Silk Road by camel",
+    "Travel the ancient Inca road by foot"
+   ],
+   [
+    "Be a page at King Arthur's court (if it were real)",
+    "Be a squire to a real medieval knight"
+   ],
+   [
+    "Find a complete set of Shakespeare's lost plays",
+    "Find a complete library of ancient Alexandria"
+   ]
+  ]
+ },
+ "month9": {
+  "fact_or_fake": [
+   [
+    "The first text message ever sent said 'Merry Christmas'.",
+    true,
+    "Neil Papworth sent 'Merry Christmas' to Vodafone director Richard Jarvis on 3 December 1992."
+   ],
+   [
+    "Tamagotchis were invented in Japan in the 1990s.",
+    true,
+    "Bandai released the Tamagotchi in Japan in 1996, creating a global virtual pet craze."
+   ],
+   [
+    "The Lion King was the first Disney film based on an original story.",
+    false,
+    "Many Disney films before it were original stories; The Lion King was also heavily inspired by Shakespeare's Hamlet and a Japanese anime."
+   ],
+   [
+    "The Spice Girls sold more albums in the 1990s than any other female group in history.",
+    true,
+    "Wannabe debuted at number one in 37 countries and the group became the best-selling female group of all time."
+   ],
+   [
+    "The first Harry Potter book was rejected by 12 publishers before being accepted.",
+    true,
+    "J.K. Rowling faced multiple rejections before Bloomsbury published Harry Potter and the Philosopher's Stone in 1997."
+   ],
+   [
+    "The PlayStation 1 was originally designed as a CD-ROM add-on for the Super Nintendo.",
+    true,
+    "Sony developed it in partnership with Nintendo before the deal fell through, leading to the standalone PlayStation."
+   ],
+   [
+    "Friends was the highest-rated TV show of the entire 1990s decade.",
+    false,
+    "ER was actually the top-rated show for most of the 90s, though Friends was hugely popular."
+   ],
+   [
+    "The internet was available to the public before the 1990s.",
+    true,
+    "The World Wide Web was invented in 1989 and became publicly available in 1991, though widespread home use exploded in the mid-90s."
+   ],
+   [
+    "Kurt Cobain named Nirvana after a Buddhist concept meaning transcendence.",
+    true,
+    "Cobain confirmed he chose the name for its spiritual connotation of freedom from suffering."
+   ],
+   [
+    "Space Jam featured Michael Jordan's actual basketball skills motion-captured for the animated scenes.",
+    false,
+    "Space Jam used traditional animation; motion capture technology wasn't used for Jordan in that film."
+   ],
+   [
+    "The first Google search engine was launched from a garage in 1998.",
+    true,
+    "Larry Page and Sergey Brin launched Google in 1998, initially working out of a garage in Menlo Park."
+   ],
+   [
+    "Furby was originally designed for the Japanese market.",
+    false,
+    "Furby was an American creation by Tiger Electronics, first released in 1998 and then sold worldwide."
+   ],
+   [
+    "The Hubble Space Telescope was launched in the 1990s.",
+    true,
+    "Hubble was launched on April 24, 1990, aboard the Space Shuttle Discovery."
+   ],
+   [
+    "Windows 95 sold more than a million copies in its first week.",
+    true,
+    "It sold around 7 million copies in the first five weeks \u2014 a record-breaking launch for software at the time."
+   ],
+   [
+    "The Mighty Morphin Power Rangers were originally a Japanese show.",
+    true,
+    "They were adapted from the Japanese 'Super Sentai' series, with new footage of American actors spliced in."
+   ],
+   [
+    "Titanic (1997) was the first film to earn $1 billion at the global box office.",
+    true,
+    "It became the highest-grossing film of all time at that point, earning over $1.8 billion globally."
+   ],
+   [
+    "The yo-yo was originally a weapon before it became a toy.",
+    false,
+    "Despite the popular story, there is no credible historical evidence that yo-yos were used as weapons."
+   ],
+   [
+    "Slap bracelets were banned in some US schools in the early 1990s.",
+    true,
+    "Multiple schools banned them after reports of children getting cuts from the exposed metal inside worn bracelets."
+   ],
+   [
+    "The first ever DVD movie released was Twister.",
+    true,
+    "Twister was the first DVD movie released in the United States in March 1997."
+   ],
+   [
+    "The 90s hit song 'Macarena' was originally a slow ballad.",
+    true,
+    "Los del R\u00edo originally recorded it as a slower, more traditional flamenco-pop song before it was remixed into the dance hit."
+   ],
+   [
+    "Beanie Babies were so popular in the 90s that people invested millions in them expecting them to gain value.",
+    true,
+    "The beanie baby craze led people to buy, collect, and store them in protective cases, expecting huge returns \u2014 most were ultimately worth very little."
+   ],
+   [
+    "The Goosebumps book series was created by R.L. Stine in the 1990s.",
+    true,
+    "R.L. Stine launched the Goosebumps series in 1992, and it became one of the best-selling book series of all time."
+   ],
+   [
+    "Bill Nye the Science Guy first aired on TV in 1993.",
+    true,
+    "Bill Nye the Science Guy premiered on September 10, 1993 on KCTS in Seattle."
+   ],
+   [
+    "The Backstreet Boys were put together through an open audition in New York.",
+    false,
+    "They were formed in Orlando, Florida in 1993 through connections made by businessman Lou Pearlman."
+   ],
+   [
+    "Pok\u00e9mon was originally called 'Capsule Monsters'.",
+    true,
+    "Creator Satoshi Tajiri originally proposed the concept under the working title 'Capsule Monsters' before it became Pocket Monsters/Pok\u00e9mon."
+   ],
+   [
+    "The Matrix was the first film to use bullet-time photography.",
+    true,
+    "The Wachowskis pioneered the technique for The Matrix (1999) using dozens of still cameras firing in sequence."
+   ],
+   [
+    "The original Game Boy had a color screen.",
+    false,
+    "The original Game Boy, released in 1989, had a distinctive yellow-green monochrome screen. The Game Boy Color didn't arrive until 1998."
+   ],
+   [
+    "AOL Instant Messenger launched in the 1990s.",
+    true,
+    "AIM launched in 1997 and became one of the dominant ways people communicated online through the late 90s and 2000s."
+   ],
+   [
+    "Shrek was originally planned as a 2D animated film.",
+    true,
+    "DreamWorks initially developed Shrek as a 2D film before switching to 3D CGI animation."
+   ],
+   [
+    "Fresh Prince of Bel-Air's theme song was improvised by Will Smith in under an hour.",
+    true,
+    "Smith has claimed he wrote and recorded the theme song in about an hour during a studio session."
+   ]
+  ],
+  "quizzes": [
+   [
+    "Which band sang 'Wannabe' in 1996?",
+    [
+     "Destiny's Child",
+     "TLC",
+     "Spice Girls"
+    ],
+    2
+   ],
+   [
+    "Which animated movie features a lion cub named Simba?",
+    [
+     "The Jungle Book",
+     "Tarzan",
+     "The Lion King"
+    ],
+    2
+   ],
+   [
+    "What was the name of the virtual pet toy craze of the late 90s?",
+    [
+     "Furby",
+     "Tamagotchi",
+     "Neopet"
+    ],
+    1
+   ],
+   [
+    "In which year did Titanic (the film) release?",
+    [
+     "1995",
+     "1997",
+     "1999"
+    ],
+    1
+   ],
+   [
+    "Which console was released by Sony in 1994/1995?",
+    [
+     "Nintendo 64",
+     "Sega Saturn",
+     "PlayStation"
+    ],
+    2
+   ],
+   [
+    "Who played Will Smith's character in 'The Fresh Prince of Bel-Air'?",
+    [
+     "DJ Jazzy Jeff",
+     "Will Smith",
+     "James Avery"
+    ],
+    1
+   ],
+   [
+    "What did the acronym WWW stand for in the 90s internet boom?",
+    [
+     "World Wide Web",
+     "Wide Wire Wiring",
+     "World Web Works"
+    ],
+    0
+   ],
+   [
+    "Which 90s toy involved collecting small round cards and flipping them?",
+    [
+     "Pogs",
+     "Marbles",
+     "Trading cards"
+    ],
+    0
+   ],
+   [
+    "What was the name of the loveable purple dinosaur from the 90s kids TV show?",
+    [
+     "Barney",
+     "Rex",
+     "Dino"
+    ],
+    0
+   ],
+   [
+    "Which 1999 film starred Keanu Reeves as 'Neo'?",
+    [
+     "The Matrix",
+     "Speed",
+     "Point Break"
+    ],
+    0
+   ],
+   [
+    "What type of pet was the Tamagotchi?",
+    [
+     "A digital alien",
+     "A virtual pet",
+     "A robotic dog"
+    ],
+    1
+   ],
+   [
+    "Who sang 'Baby One More Time' in 1998?",
+    [
+     "Christina Aguilera",
+     "Britney Spears",
+     "Jennifer Lopez"
+    ],
+    1
+   ],
+   [
+    "Which TV show featured the characters Ross, Rachel, Monica, Chandler, Joey, and Phoebe?",
+    [
+     "Seinfeld",
+     "Friends",
+     "Frasier"
+    ],
+    1
+   ],
+   [
+    "What is the name of the Toy Story cowboy?",
+    [
+     "Buzz",
+     "Rex",
+     "Woody"
+    ],
+    2
+   ],
+   [
+    "Which 90s boy band included members JC Chasez and Justin Timberlake?",
+    [
+     "Backstreet Boys",
+     "New Kids on the Block",
+     "NSYNC"
+    ],
+    2
+   ],
+   [
+    "What year did the Pok\u00e9mon Trading Card Game first release?",
+    [
+     "1993",
+     "1996",
+     "1999"
+    ],
+    1
+   ],
+   [
+    "Which film featured the line 'You had me at hello'?",
+    [
+     "Notting Hill",
+     "Jerry Maguire",
+     "Pretty Woman"
+    ],
+    1
+   ],
+   [
+    "What was the most popular search engine before Google dominated?",
+    [
+     "Yahoo",
+     "AOL",
+     "AltaVista"
+    ],
+    0
+   ],
+   [
+    "Which Nirvana album featured the song 'Smells Like Teen Spirit'?",
+    [
+     "In Utero",
+     "Bleach",
+     "Nevermind"
+    ],
+    2
+   ],
+   [
+    "What classic board game released a CD-ROM version in the 90s to capitalise on the tech boom?",
+    [
+     "Scrabble",
+     "Monopoly",
+     "Trivial Pursuit"
+    ],
+    1
+   ],
+   [
+    "Which 90s animated series featured the Rugrats characters?",
+    [
+     "Hey Arnold",
+     "Rugrats",
+     "Doug"
+    ],
+    1
+   ],
+   [
+    "What handheld gaming device did Nintendo release in 1989 (popular throughout the 90s)?",
+    [
+     "Game Gear",
+     "Lynx",
+     "Game Boy"
+    ],
+    2
+   ],
+   [
+    "Which famous grunge band was formed in Seattle in 1987?",
+    [
+     "Pearl Jam",
+     "Soundgarden",
+     "Nirvana"
+    ],
+    2
+   ],
+   [
+    "What was the name of the robot toy that could interact and learn from children?",
+    [
+     "Furby",
+     "Tamagotchi",
+     "Aibo"
+    ],
+    0
+   ],
+   [
+    "Which 1990 film featured Macaulay Culkin as a boy left home alone at Christmas?",
+    [
+     "Home Alone",
+     "My Girl",
+     "The Good Son"
+    ],
+    0
+   ],
+   [
+    "What color were the original Gameboy's graphics?",
+    [
+     "Black and white",
+     "Green monochrome",
+     "Amber"
+    ],
+    1
+   ],
+   [
+    "Which rapper released 'The Chronic' in 1992?",
+    [
+     "Tupac",
+     "Snoop Dogg",
+     "Dr. Dre"
+    ],
+    2
+   ],
+   [
+    "What 90s dance craze involved putting hands on hips and wiggling?",
+    [
+     "Electric Slide",
+     "The Macarena",
+     "The Running Man"
+    ],
+    1
+   ],
+   [
+    "Which 1993 film featured a T-Rex and velociraptors in a theme park?",
+    [
+     "Jurassic Park",
+     "Congo",
+     "The Lost World"
+    ],
+    0
+   ],
+   [
+    "Who wrote the Harry Potter series that began in 1997?",
+    [
+     "Roald Dahl",
+     "J.K. Rowling",
+     "Philip Pullman"
+    ],
+    1
+   ]
+  ],
+  "wyr": [
+   [
+    "Have grown up in the 90s with no internet",
+    "Have grown up now with full internet access"
+   ],
+   [
+    "Own an original collection of first-edition Pok\u00e9mon cards",
+    "Own a collection of every Beanie Baby ever made"
+   ],
+   [
+    "Watch every episode of Friends for the first time",
+    "Watch every episode of The Fresh Prince for the first time"
+   ],
+   [
+    "Have been backstage at a Spice Girls concert",
+    "Have been backstage at a Nirvana concert"
+   ],
+   [
+    "Have a working original Game Boy with all your favourite games",
+    "Have a modern Nintendo Switch with all current games"
+   ],
+   [
+    "Relive the day the internet became available in your home",
+    "Relive the first time you watched a VHS that was finally rewound"
+   ],
+   [
+    "Attend the premiere of The Lion King in 1994",
+    "Attend the premiere of Titanic in 1997"
+   ],
+   [
+    "Win a lifetime supply of Dunkaroos",
+    "Win a lifetime supply of Gushers"
+   ],
+   [
+    "Have been in the audience for TRL on MTV",
+    "Have been in the audience for a 90s game show"
+   ],
+   [
+    "Only use a 90s mobile phone for a year",
+    "Only use a 90s desktop computer for a year"
+   ],
+   [
+    "Have owned the first PlayStation on launch day",
+    "Have owned a Nintendo 64 on launch day"
+   ],
+   [
+    "Spend a week in 1999 New York City",
+    "Spend a week in 1999 London"
+   ],
+   [
+    "Have a 90s childhood bedroom exactly as you'd have wanted it",
+    "Have a 90s childhood wardrobe exactly as you'd have wanted it"
+   ],
+   [
+    "Only listen to 90s music for a year",
+    "Only watch 90s TV for a year"
+   ],
+   [
+    "Be able to say you discovered Pok\u00e9mon before it was cool",
+    "Be able to say you discovered the internet before it was mainstream"
+   ],
+   [
+    "Own every 90s video game console",
+    "Own every 90s action figure collection"
+   ],
+   [
+    "Have been a student when Harry Potter first came out",
+    "Have been a student when The Matrix first came out"
+   ],
+   [
+    "Spend a day at a 90s school",
+    "Spend a day at a 90s shopping mall"
+   ],
+   [
+    "Have the 90s internet at its speed for life",
+    "Have no internet but every 90s video game ever made"
+   ],
+   [
+    "Relive the first time you heard your favourite 90s song",
+    "Relive the first time you watched your favourite 90s film"
+   ],
+   [
+    "Get a message on AIM from your favourite 90s celebrity",
+    "Get a fax from your favourite 90s celebrity"
+   ],
+   [
+    "Watch the Super Bowl halftime shows of the 90s all in a row",
+    "Watch the MTV Video Music Awards of the 90s all in a row"
+   ],
+   [
+    "Have been a cast member on Saved by the Bell",
+    "Have been a cast member on Baywatch"
+   ],
+   [
+    "Own an original Air Jordan from the 90s in your exact size",
+    "Own an original pair of Doc Martens from the 90s in your exact size"
+   ],
+   [
+    "Have one day to live your best 90s kid life",
+    "Have one week to live your best 90s teen life"
+   ],
+   [
+    "Be able to go back and buy Apple stock in 1997",
+    "Be able to go back and buy Amazon stock in 1997"
+   ],
+   [
+    "Spend a summer at a 90s summer camp",
+    "Spend a summer at a 90s theme park"
+   ],
+   [
+    "Have perfect memory of every 90s cartoon you watched",
+    "Have perfect memory of every 90s video game you played"
+   ],
+   [
+    "Meet the Spice Girls in 1997",
+    "Meet the Backstreet Boys in 1999"
+   ],
+   [
+    "Have been a 90s kid in the USA",
+    "Have been a 90s kid in the UK"
+   ]
+  ]
+ },
+ "month10": {
+  "fact_or_fake": [
+   [
+    "Russia is so large it spans 11 time zones.",
+    true,
+    "Russia is the largest country by area and covers 11 different time zones."
+   ],
+   [
+    "Australia is the only country that is also a continent.",
+    true,
+    "Australia is unique in being both a country and its own continent."
+   ],
+   [
+    "The Amazon River discharges more freshwater than the next seven largest rivers combined.",
+    true,
+    "The Amazon accounts for approximately 20% of all freshwater discharged into the oceans globally."
+   ],
+   [
+    "The Dead Sea is the lowest point on Earth's land surface.",
+    true,
+    "At roughly 430 metres below sea level, the Dead Sea is Earth's lowest land surface point."
+   ],
+   [
+    "Canada has more lakes than the rest of the world combined.",
+    true,
+    "Canada contains about 60% of the world's lakes, with estimates exceeding 2 million."
+   ],
+   [
+    "The Pacific Ocean is larger than all of Earth's landmass combined.",
+    true,
+    "The Pacific Ocean covers about 165 million km\u00b2, more than all the continents put together."
+   ],
+   [
+    "China shares a border with more countries than any other nation.",
+    false,
+    "Russia shares land borders with 14 countries \u2014 the same count as China, tied for most."
+   ],
+   [
+    "The Nile River flows northward.",
+    true,
+    "The Nile flows south to north, emptying into the Mediterranean Sea in northern Egypt."
+   ],
+   [
+    "New Zealand was the last large habitable land on Earth to be settled by humans.",
+    true,
+    "The M\u0101ori arrived around 1280 AD, making New Zealand one of the last major landmasses to be settled."
+   ],
+   [
+    "Iceland is covered mostly in ice and Greenland is mostly green.",
+    true,
+    "Iceland has relatively mild coasts due to the Gulf Stream, while much of Greenland is ice sheet."
+   ],
+   [
+    "The Great Barrier Reef is visible from space.",
+    true,
+    "The reef is around 2,300 km long, making it visible from low orbit."
+   ],
+   [
+    "Vatican City has no permanent residents.",
+    false,
+    "Vatican City has several hundred permanent residents, including clergy, the Swiss Guard, and service workers."
+   ],
+   [
+    "Mount Everest grows taller every year due to tectonic activity.",
+    true,
+    "The Indian and Eurasian plates continue to push together, adding approximately 4mm to Everest's height annually."
+   ],
+   [
+    "The Sahara Desert is getting larger due to desertification.",
+    true,
+    "The Sahara has expanded southward by roughly 10% since 1920 due to climate change and land use."
+   ],
+   [
+    "Brazil is the only Portuguese-speaking country in South America.",
+    true,
+    "All other South American countries speak Spanish as their primary language, except for Brazil."
+   ],
+   [
+    "The capital of Australia is Sydney.",
+    false,
+    "The capital of Australia is Canberra, which was purpose-built as a compromise between Sydney and Melbourne."
+   ],
+   [
+    "The world's smallest country is Monaco.",
+    false,
+    "Vatican City, at 0.44 km\u00b2, is smaller than Monaco."
+   ],
+   [
+    "The Mississippi River flows south into the Gulf of Mexico.",
+    true,
+    "The Mississippi begins in Minnesota and flows southward for approximately 3,730 km to the Gulf of Mexico."
+   ],
+   [
+    "More than half of the world's countries are in the Southern Hemisphere.",
+    false,
+    "The majority of countries are in the Northern Hemisphere; only around 30-35 countries lie mostly south of the equator."
+   ],
+   [
+    "Finland has more saunas than cars.",
+    true,
+    "Finland has approximately 3.3 million saunas for a population of 5.5 million \u2014 more than the number of registered cars."
+   ],
+   [
+    "The Atacama Desert in South America receives virtually no rain.",
+    true,
+    "Some parts of the Atacama haven't seen measurable rainfall in centuries, making it the driest non-polar desert."
+   ],
+   [
+    "The Caspian Sea is technically the world's largest lake.",
+    true,
+    "The Caspian Sea, although called a sea, is landlocked and classified by some geographers as a lake."
+   ],
+   [
+    "Nepal and China share the summit of Mount Everest.",
+    true,
+    "The border runs roughly through the summit, meaning both countries can technically claim Everest's peak."
+   ],
+   [
+    "The Danube River flows through more countries than any other river.",
+    true,
+    "The Danube passes through or borders 10 countries in Europe \u2014 more than any other river."
+   ],
+   [
+    "Antarctica has no permanent human population but does have permanent research stations.",
+    true,
+    "No indigenous population lives in Antarctica, but around 1,000\u20135,000 researchers live there depending on the season."
+   ],
+   [
+    "The population of Tokyo is greater than the entire population of Canada.",
+    true,
+    "Greater Tokyo has over 37 million people; Canada's population is approximately 38\u201340 million \u2014 very close."
+   ],
+   [
+    "Every country in the world has at least one mountain.",
+    false,
+    "Countries like Bangladesh, Maldives, and parts of the Netherlands are almost entirely flat with no mountains."
+   ],
+   [
+    "Lake Baikal contains more freshwater than all of North America's Great Lakes combined.",
+    true,
+    "Lake Baikal holds approximately 23% of the world's surface freshwater \u2014 more than the five Great Lakes together."
+   ],
+   [
+    "The equator passes through 13 countries.",
+    true,
+    "The equator crosses through Ecuador, Colombia, Brazil, S\u00e3o Tom\u00e9 & Pr\u00edncipe, Gabon, Congo, DRC, Uganda, Kenya, Somalia, Maldives, Indonesia, and Kiribati."
+   ],
+   [
+    "The world's longest coastline belongs to Canada.",
+    true,
+    "Canada's coastline measures approximately 202,080 km \u2014 the longest of any country."
+   ]
+  ],
+  "quizzes": [
+   [
+    "What is the capital of Japan?",
+    [
+     "Osaka",
+     "Tokyo",
+     "Kyoto"
+    ],
+    1
+   ],
+   [
+    "On which continent is the Sahara Desert located?",
+    [
+     "Asia",
+     "Africa",
+     "Australia"
+    ],
+    1
+   ],
+   [
+    "Which is the longest river in South America?",
+    [
+     "Orinoco",
+     "Amazon",
+     "Paran\u00e1"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Brazil?",
+    [
+     "S\u00e3o Paulo",
+     "Rio de Janeiro",
+     "Bras\u00edlia"
+    ],
+    2
+   ],
+   [
+    "Which country is home to the most pyramids in the world?",
+    [
+     "Egypt",
+     "Mexico",
+     "Sudan"
+    ],
+    2
+   ],
+   [
+    "What is the smallest country by area in the world?",
+    [
+     "Monaco",
+     "San Marino",
+     "Vatican City"
+    ],
+    2
+   ],
+   [
+    "Which mountain range runs through the western side of South America?",
+    [
+     "Rocky Mountains",
+     "Himalayas",
+     "Andes"
+    ],
+    2
+   ],
+   [
+    "What is the capital of South Africa?",
+    [
+     "Cape Town",
+     "Johannesburg",
+     "Pretoria"
+    ],
+    2
+   ],
+   [
+    "Which ocean is the largest by area?",
+    [
+     "Indian Ocean",
+     "Atlantic Ocean",
+     "Pacific Ocean"
+    ],
+    2
+   ],
+   [
+    "What is the capital of Canada?",
+    [
+     "Toronto",
+     "Vancouver",
+     "Ottawa"
+    ],
+    2
+   ],
+   [
+    "Which country has the most UNESCO World Heritage Sites?",
+    [
+     "China",
+     "France",
+     "Italy"
+    ],
+    2
+   ],
+   [
+    "What is the longest wall ever built?",
+    [
+     "Hadrian's Wall",
+     "Great Wall of China",
+     "Berlin Wall"
+    ],
+    1
+   ],
+   [
+    "In which country is the Serengeti National Park?",
+    [
+     "Kenya",
+     "South Africa",
+     "Tanzania"
+    ],
+    2
+   ],
+   [
+    "Which country is home to the world's most active volcano, Kilauea?",
+    [
+     "Hawaii, USA",
+     "Iceland",
+     "Indonesia"
+    ],
+    0
+   ],
+   [
+    "What is the official language of Brazil?",
+    [
+     "Spanish",
+     "Portuguese",
+     "French"
+    ],
+    1
+   ],
+   [
+    "What is the capital of India?",
+    [
+     "Mumbai",
+     "New Delhi",
+     "Kolkata"
+    ],
+    1
+   ],
+   [
+    "What is the tallest active volcano in the world?",
+    [
+     "Kilimanjaro",
+     "Ojos del Salado",
+     "Mauna Loa"
+    ],
+    1
+   ],
+   [
+    "Which sea separates Europe from Africa at their closest point?",
+    [
+     "Red Sea",
+     "Strait of Gibraltar",
+     "Mediterranean Sea"
+    ],
+    2
+   ],
+   [
+    "What is the capital of Nigeria?",
+    [
+     "Lagos",
+     "Abuja",
+     "Kano"
+    ],
+    1
+   ],
+   [
+    "Which country has the most active volcanoes?",
+    [
+     "Japan",
+     "Iceland",
+     "Indonesia"
+    ],
+    2
+   ],
+   [
+    "What is the capital of Australia?",
+    [
+     "Sydney",
+     "Melbourne",
+     "Canberra"
+    ],
+    2
+   ],
+   [
+    "Which is the only sea without any coastline?",
+    [
+     "Sargasso Sea",
+     "Red Sea",
+     "Dead Sea"
+    ],
+    0
+   ],
+   [
+    "What is the capital of Sweden?",
+    [
+     "Oslo",
+     "Copenhagen",
+     "Stockholm"
+    ],
+    2
+   ],
+   [
+    "Which country is home to the most UNESCO World Heritage Sites?",
+    [
+     "China",
+     "France",
+     "Italy"
+    ],
+    2
+   ],
+   [
+    "What is the deepest lake in the world?",
+    [
+     "Lake Superior",
+     "Lake Baikal",
+     "Caspian Sea"
+    ],
+    1
+   ],
+   [
+    "Which country has the longest land border in the world?",
+    [
+     "China",
+     "USA",
+     "Canada"
+    ],
+    2
+   ],
+   [
+    "Which country has the most natural hot springs?",
+    [
+     "Japan",
+     "Iceland",
+     "New Zealand"
+    ],
+    0
+   ],
+   [
+    "What is the largest country in Africa by area?",
+    [
+     "Sudan",
+     "Algeria",
+     "Democratic Republic of Congo"
+    ],
+    1
+   ],
+   [
+    "What is the capital of Saudi Arabia?",
+    [
+     "Riyadh",
+     "Jeddah",
+     "Mecca"
+    ],
+    0
+   ],
+   [
+    "Which is the flattest country on Earth?",
+    [
+     "Netherlands",
+     "Maldives",
+     "Bangladesh"
+    ],
+    1
+   ]
+  ],
+  "wyr": [
+   [
+    "Live on every continent for 1 month each",
+    "Visit every country in the world for 1 week each"
+   ],
+   [
+    "Speak every European language fluently",
+    "Speak every Asian language fluently"
+   ],
+   [
+    "Own a house in Tokyo",
+    "Own a house in Paris"
+   ],
+   [
+    "Spend a year in the Amazon rainforest",
+    "Spend a year in the Sahara Desert"
+   ],
+   [
+    "Visit every capital city in the world",
+    "Visit every national park in the world"
+   ],
+   [
+    "Explore the Sahara by camel",
+    "Explore Antarctica by dogsled"
+   ],
+   [
+    "Live on a remote Pacific island for a year",
+    "Live in a remote mountain village in Nepal for a year"
+   ],
+   [
+    "Have been born in Norway",
+    "Have been born in New Zealand"
+   ],
+   [
+    "Sail around the world solo",
+    "Drive across every country in Asia"
+   ],
+   [
+    "Spend a week in Iceland in summer (midnight sun)",
+    "Spend a week in Iceland in winter (northern lights)"
+   ],
+   [
+    "Know the exact location of every country on a map",
+    "Know every country's capital city from memory"
+   ],
+   [
+    "Go on safari in Kenya",
+    "Go scuba diving on the Great Barrier Reef"
+   ],
+   [
+    "Witness the Northern Lights in person",
+    "Witness a total solar eclipse in person"
+   ],
+   [
+    "Have a private cabin in the Swiss Alps",
+    "Have a private villa on a Greek island"
+   ],
+   [
+    "Explore the ancient ruins of Rome",
+    "Explore the ancient ruins of Machu Picchu"
+   ],
+   [
+    "Hike the Great Wall of China",
+    "Hike the Inca Trail to Machu Picchu"
+   ],
+   [
+    "Visit every wonder of the ancient world (if they still existed)",
+    "Visit every wonder of the modern world"
+   ],
+   [
+    "Own an island in the Pacific",
+    "Own a private mountain in the Rockies"
+   ],
+   [
+    "Spend a year living in Japan",
+    "Spend a year living in Brazil"
+   ],
+   [
+    "See every landmark on Earth from a satellite",
+    "Stand on every highest point in every country"
+   ],
+   [
+    "Swim in every ocean on Earth",
+    "Climb the highest peak on every continent"
+   ],
+   [
+    "Live near the equator forever",
+    "Live near the Arctic forever"
+   ],
+   [
+    "Have perfect knowledge of world geography",
+    "Have perfect knowledge of every world history event"
+   ],
+   [
+    "Only travel by boat for the rest of your life",
+    "Only travel by train for the rest of your life"
+   ],
+   [
+    "Spend a week exploring the jungle",
+    "Spend a week exploring underwater caves"
+   ],
+   [
+    "Have a house that teleports to any city every morning",
+    "Have a boat that can sail anywhere in the world instantly"
+   ],
+   [
+    "Know the population of every city on Earth",
+    "Know the exact distance between any two points on Earth"
+   ],
+   [
+    "Move to a new country every year for 10 years",
+    "Stay in one country your whole life and master it completely"
+   ],
+   [
+    "See sunrise from the top of Kilimanjaro",
+    "See sunrise from the top of the Eiffel Tower"
+   ],
+   [
+    "Have a private map of every hidden cave system on Earth",
+    "Have a private map of every undiscovered shipwreck on Earth"
+   ]
+  ]
+ },
+ "month11": {
+  "fact_or_fake": [
+   [
+    "Santa Claus's red suit was created by Coca-Cola's advertising team.",
+    false,
+    "The red suit predates Coca-Cola's 1930s ads \u2014 it was popularized by earlier illustrators like Thomas Nast in the 19th century."
+   ],
+   [
+    "Christmas was once banned in England.",
+    true,
+    "Under Oliver Cromwell in the 1640s and 1650s, Christmas celebrations were illegal in England."
+   ],
+   [
+    "The first Christmas card was sent in 1843.",
+    true,
+    "Sir Henry Cole commissioned the first commercial Christmas card in 1843 in England."
+   ],
+   [
+    "Rudolph the Red-Nosed Reindeer was originally created by a department store.",
+    true,
+    "Rudolph was created in 1939 by Robert L. May for Montgomery Ward stores as a holiday promotional giveaway."
+   ],
+   [
+    "Christmas trees originated in Germany.",
+    true,
+    "The tradition of decorating Christmas trees originated in Germany in the 16th century and spread globally."
+   ],
+   [
+    "Jingle Bells was originally written as a Thanksgiving song.",
+    true,
+    "James Lord Pierpont wrote it in 1857 for a Thanksgiving celebration \u2014 the lyrics reference horse racing, not Christmas."
+   ],
+   [
+    "The world's tallest Christmas tree ever displayed was over 200 feet tall.",
+    true,
+    "A Douglas fir displayed in a Washington state shopping center in 1950 measured 221 feet."
+   ],
+   [
+    "Boxing Day gets its name from boxing matches held on the 26th of December.",
+    false,
+    "Boxing Day likely comes from the tradition of giving gift boxes to servants or tradespeople, not from the sport."
+   ],
+   [
+    "In Japan, it's traditional to eat KFC for Christmas.",
+    true,
+    "A 1974 marketing campaign turned KFC into a beloved Japanese Christmas tradition \u2014 orders are placed months in advance."
+   ],
+   [
+    "Candy canes were invented to keep children quiet in church during long Christmas services.",
+    true,
+    "One account traces the origin to a choirmaster at Cologne Cathedral in Germany who gave sugar sticks to children."
+   ],
+   [
+    "The famous Christmas song 'White Christmas' was written by a Jewish songwriter.",
+    true,
+    "Irving Berlin, who was Jewish, wrote 'White Christmas' \u2014 still the best-selling single of all time."
+   ],
+   [
+    "The tradition of leaving out milk and cookies for Santa comes from Norse mythology.",
+    false,
+    "The most likely origin is Dutch and Scandinavian traditions of leaving out food for Odin's horse, Sleipnir."
+   ],
+   [
+    "Eggnog originated in North America in the 1700s.",
+    true,
+    "Eggnog developed in early America from British milk-and-ale drinks like posset, with rum replacing ale."
+   ],
+   [
+    "In Australia, Christmas falls during summer.",
+    true,
+    "Australia is in the Southern Hemisphere, so December 25 is in the middle of their summer."
+   ],
+   [
+    "The song 'Happy Birthday to You' earns more royalties than any Christmas song annually.",
+    true,
+    "Until it entered the public domain in 2016, 'Happy Birthday' consistently earned more royalties than seasonal songs."
+   ],
+   [
+    "Santa Claus is based on a real historical person.",
+    true,
+    "Santa Claus is based on Saint Nicholas of Myra, a 4th-century Christian bishop known for generosity."
+   ],
+   [
+    "Hanukkah always falls on the same date in December.",
+    false,
+    "Hanukkah follows the Hebrew calendar and can fall anywhere from late November to late December."
+   ],
+   [
+    "The Christmas stocking tradition comes from a story about Saint Nicholas throwing gold coins.",
+    true,
+    "Legend says Saint Nicholas tossed bags of gold through a window, landing in stockings hung to dry."
+   ],
+   [
+    "Mistletoe was considered sacred by the ancient Celts and Norse.",
+    true,
+    "Both cultures considered mistletoe a powerful symbol of peace, love, and protection."
+   ],
+   [
+    "Christmas became a federal holiday in the USA in 1870.",
+    true,
+    "President Ulysses S. Grant signed Christmas into law as a US federal holiday on June 28, 1870."
+   ],
+   [
+    "The traditional 12 Days of Christmas start on Christmas Day.",
+    false,
+    "Traditionally the 12 Days of Christmas begin on December 25 and end on January 5 (Twelfth Night)."
+   ],
+   [
+    "Poinsettias are poisonous to humans.",
+    false,
+    "They can cause mild stomach upset, but poinsettias are not dangerously toxic to humans, though they can be irritating."
+   ],
+   [
+    "The world's most expensive Christmas tree was decorated with diamonds and cost over $11 million.",
+    true,
+    "A tree in Abu Dhabi in 2010 was decorated with $11 million worth of jewels and ornaments."
+   ],
+   [
+    "Elves are a traditional part of Scandinavian Christmas folklore.",
+    true,
+    "Tomte or Nisse \u2014 small elf-like figures \u2014 have been part of Scandinavian Christmas tradition for centuries."
+   ],
+   [
+    "Christmas was not widely celebrated in America until the mid-1800s.",
+    true,
+    "Puritan influence suppressed Christmas celebration in early America; it only gained wider popularity after the 1820s\u20131840s."
+   ],
+   [
+    "Tinsel was originally made of real silver.",
+    true,
+    "Tinsel was first made from thin strips of hammered real silver in Germany in the 17th century."
+   ],
+   [
+    "The Christmas cracker was invented by a British confectioner in the 1840s.",
+    true,
+    "Tom Smith invented the Christmas cracker in 1847, inspired by French bonbons wrapped in paper."
+   ],
+   [
+    "Reindeer are real animals and both males and females can grow antlers.",
+    true,
+    "Rangifer tarandus is a real animal; uniquely among deer, females also grow antlers."
+   ],
+   [
+    "In Iceland, 13 different Santas (called Yule Lads) visit children in December.",
+    true,
+    "Icelandic Christmas folklore includes 13 Yule Lads, each with a different mischievous trait."
+   ],
+   [
+    "The date December 25 was chosen for Christmas because it was the known birth date of Jesus.",
+    false,
+    "No historical record confirms Jesus's birth date; December 25 was likely chosen to coincide with existing winter solstice celebrations."
+   ]
+  ],
+  "quizzes": [
+   [
+    "In the song 'The Twelve Days of Christmas', how many lords are a-leaping?",
+    [
+     "10",
+     "11",
+     "12"
+    ],
+    0
+   ],
+   [
+    "Which country started the tradition of the Christmas tree?",
+    [
+     "England",
+     "USA",
+     "Germany"
+    ],
+    2
+   ],
+   [
+    "What is the traditional Christmas plant with red and green leaves?",
+    [
+     "Holly",
+     "Poinsettia",
+     "Mistletoe"
+    ],
+    1
+   ],
+   [
+    "Which three gifts did the Biblical Magi bring?",
+    [
+     "Gold, frankincense, myrrh",
+     "Silver, spice, amber",
+     "Diamond, silk, ivory"
+    ],
+    0
+   ],
+   [
+    "In Charles Dickens' A Christmas Carol, what is Scrooge's first name?",
+    [
+     "Edgar",
+     "Ebenezer",
+     "Edmund"
+    ],
+    1
+   ],
+   [
+    "In which country does the Christmas celebration of 'La Posada' originate?",
+    [
+     "Spain",
+     "Cuba",
+     "Mexico"
+    ],
+    2
+   ],
+   [
+    "What is Hanukkah also commonly called?",
+    [
+     "Festival of Lights",
+     "Festival of Stars",
+     "Festival of Colors"
+    ],
+    0
+   ],
+   [
+    "How many reindeer does Santa traditionally have including Rudolph?",
+    [
+     "8",
+     "9",
+     "10"
+    ],
+    1
+   ],
+   [
+    "Which country is credited with sending the first Christmas card?",
+    [
+     "USA",
+     "Germany",
+     "England"
+    ],
+    2
+   ],
+   [
+    "What is the main religion associated with Diwali?",
+    [
+     "Islam",
+     "Hinduism",
+     "Buddhism"
+    ],
+    1
+   ],
+   [
+    "What do children in the Netherlands leave out for Sinterklaas's horse?",
+    [
+     "Sugar cubes",
+     "Carrots",
+     "Hay"
+    ],
+    2
+   ],
+   [
+    "Which holiday, celebrated on December 26 to January 1, is an African American celebration of culture and values?",
+    [
+     "Kwanzaa",
+     "Juneteenth",
+     "Heritage Day"
+    ],
+    0
+   ],
+   [
+    "In the film 'Elf', where does Buddy the Elf travel to find his father?",
+    [
+     "Los Angeles",
+     "Chicago",
+     "New York City"
+    ],
+    2
+   ],
+   [
+    "What is the Christian festival celebrated 12 days after Christmas called?",
+    [
+     "Epiphany",
+     "Advent",
+     "Candlemas"
+    ],
+    0
+   ],
+   [
+    "Which Scandinavian myth explains the tradition of decorating a Christmas tree?",
+    [
+     "The Yggdrasil world tree",
+     "Odin's spear",
+     "Thor's hammer"
+    ],
+    0
+   ],
+   [
+    "What are the origins of the word 'Yule'?",
+    [
+     "A Norse word for winter feast",
+     "A Roman word for fire",
+     "A Celtic word for sun"
+    ],
+    0
+   ],
+   [
+    "In Australia, which bird is commonly depicted instead of robins on Christmas cards?",
+    [
+     "Kookaburra",
+     "Emu",
+     "Cockatoo"
+    ],
+    0
+   ],
+   [
+    "On what date do Spanish-speaking countries traditionally open presents?",
+    [
+     "December 25",
+     "December 31",
+     "January 6"
+    ],
+    2
+   ],
+   [
+    "What is the Italian Christmas dessert that is shaped like a dome and contains dried fruit?",
+    [
+     "Tiramisu",
+     "Panettone",
+     "Cannoli"
+    ],
+    1
+   ],
+   [
+    "Which classic Christmas film features the character Kevin McCallister?",
+    [
+     "Home Alone",
+     "A Christmas Story",
+     "National Lampoon's Christmas"
+    ],
+    0
+   ],
+   [
+    "In Germany, what is the Advent calendar used to count down to?",
+    [
+     "New Year's Day",
+     "Christmas Day",
+     "Epiphany"
+    ],
+    1
+   ],
+   [
+    "Which carol begins with the line 'Silent night, holy night'?",
+    [
+     "Silent Night",
+     "O Holy Night",
+     "Away in a Manger"
+    ],
+    0
+   ],
+   [
+    "In the UK, what is the traditional December 26th public holiday called?",
+    [
+     "St Stephen's Day",
+     "Boxing Day",
+     "Winter Bank Holiday"
+    ],
+    1
+   ],
+   [
+    "What vegetable is traditionally served with Christmas dinner in the UK?",
+    [
+     "Parsnips",
+     "Brussels sprouts",
+     "Carrots"
+    ],
+    1
+   ],
+   [
+    "Which Christmas song begins 'Oh the weather outside is frightful'?",
+    [
+     "Frosty the Snowman",
+     "Let It Snow",
+     "Winter Wonderland"
+    ],
+    1
+   ],
+   [
+    "What is the French Christmas log cake dessert called?",
+    [
+     "Galette des Rois",
+     "B\u00fbche de No\u00ebl",
+     "Kouign-Amann"
+    ],
+    1
+   ],
+   [
+    "In 'It's a Wonderful Life', who is George Bailey's guardian angel?",
+    [
+     "Gabriel",
+     "Clarence",
+     "Michael"
+    ],
+    1
+   ],
+   [
+    "Which country decorates streets with 'luminarias' (small paper lantern bags) at Christmas?",
+    [
+     "Mexico",
+     "Brazil",
+     "Argentina"
+    ],
+    0
+   ],
+   [
+    "What shape is a traditional Christmas Stollen bread?",
+    [
+     "A wreath",
+     "A swaddled baby",
+     "A star"
+    ],
+    1
+   ],
+   [
+    "In Finland, where does Santa Claus officially live according to Finnish tradition?",
+    [
+     "The North Pole",
+     "Lapland",
+     "Rovaniemi"
+    ],
+    2
+   ]
+  ],
+  "wyr": [
+   [
+    "Have Christmas last a full week",
+    "Have Christmas come twice a year"
+   ],
+   [
+    "Be able to eat all the Christmas food with no consequences",
+    "Be able to give the perfect gift to everyone you love"
+   ],
+   [
+    "Wake up to a snowy Christmas every year",
+    "Wake up to a warm sunny Christmas every year"
+   ],
+   [
+    "Watch every Christmas film in one sitting",
+    "Listen to Christmas music all year round"
+   ],
+   [
+    "Spend Christmas Day in New York City",
+    "Spend Christmas Day in Lapland, Finland"
+   ],
+   [
+    "Have a real Christmas tree every year",
+    "Have a perfect artificial tree that looks completely real"
+   ],
+   [
+    "Be the person who wraps all the gifts perfectly",
+    "Be the person who always picks the perfect gifts"
+   ],
+   [
+    "Experience Christmas as a child again",
+    "Experience Christmas for the first time as an adult"
+   ],
+   [
+    "Live in a house decorated like the Griswolds in Christmas Vacation",
+    "Live in a house with minimal but perfectly elegant decorations"
+   ],
+   [
+    "Only ever receive practical gifts",
+    "Only ever receive fun gifts with no practical value"
+   ],
+   [
+    "Cook Christmas dinner for 20 people",
+    "Attend Christmas dinner cooked by someone else for 20 people"
+   ],
+   [
+    "Have the ability to make it snow on demand",
+    "Have the ability to guarantee perfect Christmas Day weather"
+   ],
+   [
+    "Spend Boxing Day shopping the sales",
+    "Spend Boxing Day completely off-grid with no shopping"
+   ],
+   [
+    "Only watch Christmas movies for the entire month of December",
+    "Only listen to Christmas music for the entire month of December"
+   ],
+   [
+    "Have a Scrooge-style ghost visit showing your Christmas past",
+    "Have a ghost visit showing your ideal Christmas future"
+   ],
+   [
+    "Receive one incredibly expensive gift",
+    "Receive 20 thoughtful smaller gifts"
+   ],
+   [
+    "Send a personalised Christmas card to every person you know",
+    "Receive a personalised card from every person you know"
+   ],
+   [
+    "Be in charge of all Christmas decorations at home",
+    "Be in charge of all Christmas cooking"
+   ],
+   [
+    "Celebrate Christmas in a tropical location",
+    "Celebrate Christmas in a snowy mountain chalet"
+   ],
+   [
+    "Have every Christmas song ever made on a playlist",
+    "Have every Christmas film ever made on a streaming service"
+   ],
+   [
+    "Spend Christmas morning in pyjamas all day",
+    "Have a formal Christmas dinner in your finest clothes"
+   ],
+   [
+    "Open all presents on Christmas Eve",
+    "Open all presents on Christmas morning"
+   ],
+   [
+    "Have access to every Christmas market in Europe for one day",
+    "Have access to the best Christmas lights display in the world for one night"
+   ],
+   [
+    "Have a completely stress-free Christmas with strangers",
+    "Have a wonderful but slightly chaotic Christmas with family"
+   ],
+   [
+    "Spend New Year's Eve at a huge party with thousands",
+    "Spend New Year's Eve in an intimate gathering with close friends"
+   ],
+   [
+    "Have unlimited Christmas budget but have to buy everything on Christmas Eve",
+    "Have a strict budget but start shopping in September"
+   ],
+   [
+    "Get to experience Christmas traditions from every country in one day",
+    "Get to experience the world's most magical Christmas market"
+   ],
+   [
+    "Always know what everyone wants for Christmas",
+    "Always find the perfect gift without knowing what they want"
+   ],
+   [
+    "Have a real life Elf-on-the-Shelf that genuinely plays pranks",
+    "Have a real life Rudolph that glows and guides Santa"
+   ],
+   [
+    "Experience Christmas exactly as Dickens described it in Victorian England",
+    "Experience Christmas exactly as it would have been in 1960s suburban America"
+   ]
+  ]
+ }
+}
