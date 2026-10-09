@@ -1,0 +1,8 @@
+
+# Build artifacts
+pipeline/__pycache__/
+pipeline/_ff.log
+pipeline/_music.wav
+pipeline/_mux.log
+pipeline/_video.mp4
+pipeline/_voice.wav
