@@ -1,4 +1,4 @@
-# Sports Trivia Ep. 1 — 30 Questions across 8 sport categories
+# Sports Trivia Ep. 2 — 30 Questions across 8 sport categories
 # Each entry: (question, [options], correct_index)
 
 CATEGORIES = [

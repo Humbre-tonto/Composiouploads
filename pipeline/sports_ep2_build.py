@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sports Trivia Ep. 1 — long-form video builder
+"""Sports Trivia Ep. 2 — long-form video builder
 30 questions across 8 sport categories, ~10 min
 """
 import sys, os, math, subprocess
@@ -11,10 +11,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from da_lib import W, H, FPS, SR, fb, fc, band, brand, center, block, fit, wrap
 from da_lib import tick, ding, correct, whoosh, pop, music
 from piper_voice import say as piper_say
-from sports_ep1_content import CATEGORIES
+from sports_ep2_content import CATEGORIES
 
 DIR = os.path.dirname(os.path.abspath(__file__))
-OUT = "/home/claude/Composiouploads/sports_ep1.mp4"
+OUT = "/home/claude/Composiouploads/sports_ep2.mp4"
 
 TIMER = 3  # seconds to answer
 INTRO_DUR = 4.0
@@ -374,7 +374,7 @@ def print_chapters(scenes):
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    print("Building Sports Trivia Ep. 1...")
+    print("Building Sports Trivia Ep. 2...")
     print("Generating TTS for all questions (this takes a while)...")
     scenes = build_all_scenes()
     print(f"Scenes: {len(scenes)}")
