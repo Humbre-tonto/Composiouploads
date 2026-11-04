@@ -21,7 +21,7 @@ def resample_linear(a,sr_in,sr_out):
 
 def say(text,target_sr=24000):
     ensure_voice()
-    tmp="/tmp/_piper_out.wav"
+    tmp=f"/tmp/_piper_out_{os.getpid()}.wav"
     subprocess.run(["python3","-m","piper","--model",ONNX,"--output_file",tmp],
                    input=text,capture_output=True,text=True,timeout=30)
     a,sr=sf.read(tmp)

@@ -6,3 +6,7 @@ pipeline/_music.wav
 pipeline/_mux.log
 pipeline/_video.mp4
 pipeline/_voice.wav
+pipeline/__pycache__/
+pipeline/_*.wav
+pipeline/_*.mp4
+pipeline/_*.log

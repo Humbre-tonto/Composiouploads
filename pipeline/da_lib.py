@@ -89,7 +89,7 @@ def brand(d):
     d.rounded_rectangle([28,26,28+w+40,84],28,fill=(0,0,0,120))
     d.text((48,40),txt,font=f,fill=(255,220,70))
 def crosspromo(d):
-    f=fb(30); txt="🎬 Full episode — link in description"
+    f=fb(30); txt="▶ Full episode — link in description"
     w=d.textbbox((0,0),txt,font=f)[2]
     d.rounded_rectangle([W//2-w//2-24,H-58,W//2+w//2+24,H-10],22,fill=(0,0,0,140))
     center(d,txt,W//2,H-52,f,(255,255,255))

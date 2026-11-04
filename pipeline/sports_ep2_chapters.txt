@@ -1,0 +1,8 @@
+0:00 ⚽ Football (Q1–6)
+1:10 🏀 Basketball (Q7–11)
+2:03 🎾 Tennis (Q12–15)
+2:47 🏊 Swimming (Q16–18)
+3:20 ⚾ Baseball (Q19–21)
+3:54 🥊 Boxing (Q22–24)
+4:28 🏃 Athletics (Q25–27)
+5:01 🏆 Olympics (Q28–30) + Final Score
