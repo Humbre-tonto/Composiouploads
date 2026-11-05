@@ -82,7 +82,7 @@ def upload_one(item, when):
         "categoryId": item["categoryId"], "privacyStatus": "private",
         "videoFile": {"s3key": s3, "name": item["file"], "mimetype": "video/mp4"}})
     if e: return None, e
-    d = _d(r); vid = d.get("id") or (d.get("response_data") or {}).get("id")
+    d = _d(r); vid = d.get("id") or (d.get("video") or {}).get("id") or (d.get("response_data") or {}).get("id")
     if not vid: return None, f"no id in {str(d)[:200]}"
     _, e2 = set_schedule(vid, when)
     try: os.remove(path)
