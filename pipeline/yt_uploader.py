@@ -112,6 +112,7 @@ def run(max_uploads=40, time_budget=165, refresh_inventory=False):
     floor = now + dt.timedelta(minutes=75)
     last = None
     for it in queue:                      # latest scheduled time among queue items already on channel
+        if it["key"].startswith("sports"): continue   # long-form doesn't anchor the Shorts cadence
         v = inv.get(it["title"])
         if v and v.get("publishAt"):
             p = parse(v["publishAt"]); last = p if (last is None or p > last) else last
@@ -131,7 +132,7 @@ def run(max_uploads=40, time_budget=165, refresh_inventory=False):
         if it["title"] in inv:
             continue
         planned = parse(it["planned_publish"])
-        when = planned if (planned > floor and (last is None or planned > last)) else next_slot(max(floor, last or floor))
+        when = next_slot(max(floor, last or floor))   # back-to-back slots, no gaps
         vid, err = upload_one(it, when)
         if vid:
             inv[it["title"]] = dict(id=vid, privacy="private", publishAt=None if err else iso(when))
