@@ -1,6 +1,7 @@
 # The Daily Brainy — daily uploader. Runs INSIDE the Composio remote workbench.
-# Stateless + idempotent: the channel itself is the source of truth (matched by title),
-# so re-running never double-uploads. Stops cleanly on quota errors.
+# Upload state lives in uploaded.json in the repo (never inferred from the YouTube
+# listing API, which hides ~100 private scheduled videos). Stops cleanly on quota errors.
+# After each session: merge out["new"] into uploaded.json with pipeline/merge_progress.py and push.
 #
 # Usage in a workbench cell:
 #   exec(requests.get(RAW + "pipeline/yt_uploader.py").text); run(max_uploads=40, time_budget=165)
@@ -96,53 +97,42 @@ def load_state():
 def save_state(s):
     os.makedirs(os.path.dirname(STATE), exist_ok=True); json.dump(s, open(STATE, "w"))
 
-def run(max_uploads=40, time_budget=165, refresh_inventory=False):
-    t0 = time.time(); s = load_state(); out = {"uploaded": [], "rescheduled": [], "stopped": None}
+def run(max_uploads=40, time_budget=165):
+    """Upload the next pending queue items.
+
+    Upload state comes from uploaded.json in the repo (committed after every session)
+    merged with this sandbox's own session log. The YouTube uploads-playlist API hides
+    ~100 private scheduled videos, so it must NOT be used to decide what's uploaded.
+    After a session, merge out["new"] into uploaded.json and push it.
+    """
+    t0 = time.time(); s = load_state(); s.setdefault("new", {})
+    out = {"uploaded": [], "stopped": None}
     ok, msg = verify_channel()
     if not ok:
         out["stopped"] = msg; return out
-    queue = requests.get(RAW + "queue.json", timeout=60).json()
-    if refresh_inventory or not s.get("inv"):
-        try:
-            s["inv"] = channel_inventory(); s["inv_at"] = iso(dt.datetime.now(dt.timezone.utc)); save_state(s)
-        except Exception as e:
-            out["stopped"] = ("QUOTA: " if _quota(e) else "inventory failed: ") + str(e)[:200]; return out
-    inv = s["inv"]
-    now = dt.datetime.now(dt.timezone.utc)
-    floor = now + dt.timedelta(minutes=75)
-    last = None
-    for it in queue:                      # latest scheduled time among queue items already on channel
-        if it["key"].startswith("sports"): continue   # long-form doesn't anchor the Shorts cadence
-        v = inv.get(it["title"])
-        if v and v.get("publishAt"):
-            p = parse(v["publishAt"]); last = p if (last is None or p > last) else last
-    # repair: on channel, still private, no publishAt -> schedule it
-    for it in queue:
-        v = inv.get(it["title"])
-        if v and v["privacy"] == "private" and not v.get("publishAt"):
-            when = max(parse(it["planned_publish"]), next_slot(max(floor, last or floor)))
-            _, e = set_schedule(v["id"], when)
-            if e:
-                out["stopped"] = "QUOTA during reschedule" if _quota(e) else f"reschedule error {str(e)[:150]}"
-                save_state(s); return out
-            v["publishAt"] = iso(when); last = when; out["rescheduled"].append((it["key"], iso(when)))
+    bust = f"?t={int(time.time())}"
+    queue = requests.get(RAW + "queue.json" + bust, timeout=60).json()
+    prog = requests.get(RAW + "uploaded.json" + bust, timeout=60).json()
+    done = set(prog["videos"]) | set(s["new"])
+    last = parse(prog["scheduled_through"])
+    for _, when in s["new"].values():
+        last = max(last, parse(when))
+    floor = dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=75)
     for it in queue:
         if len(out["uploaded"]) >= max_uploads or time.time() - t0 > time_budget:
             break
-        if it["title"] in inv:
+        if it["key"] in done:
             continue
-        planned = parse(it["planned_publish"])
-        when = next_slot(max(floor, last or floor))   # back-to-back slots, no gaps
+        when = next_slot(max(floor, last))   # back-to-back slots, no gaps
         vid, err = upload_one(it, when)
         if vid:
-            inv[it["title"]] = dict(id=vid, privacy="private", publishAt=None if err else iso(when))
+            s["new"][it["key"]] = [vid, iso(when)]; done.add(it["key"]); save_state(s)
             last = when; out["uploaded"].append((it["key"], vid, iso(when)))
-            s["log"].append([iso(dt.datetime.now(dt.timezone.utc)), it["key"], vid, iso(when)]); save_state(s)
-            if err: out["stopped"] = err; break
+            if err:
+                out["stopped"] = f"{it['key']} {vid}: {err}"; break
         else:
             out["stopped"] = ("QUOTA: " if _quota(err) else "upload error: ") + str(err)[:250]; break
-    save_state(s)
-    pend = [it for it in queue if it["title"] not in inv]
-    out["remaining"] = len(pend)
-    out["scheduled_through"] = iso(last) if last else None
+    out["remaining"] = sum(1 for it in queue if it["key"] not in done)
+    out["scheduled_through"] = iso(last)
+    out["new"] = s["new"]
     return out
