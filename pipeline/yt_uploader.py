@@ -123,11 +123,13 @@ def run(max_uploads=40, time_budget=165):
             break
         if it["key"] in done:
             continue
-        when = next_slot(max(floor, last))   # back-to-back slots, no gaps
+        fixed = prog.get("slot_override", {}).get(it["key"])   # re-upload into its original slot
+        when = parse(fixed) if fixed and parse(fixed) > floor else next_slot(max(floor, last))
         vid, err = upload_one(it, when)
         if vid:
             s["new"][it["key"]] = [vid, iso(when)]; done.add(it["key"]); save_state(s)
-            last = when; out["uploaded"].append((it["key"], vid, iso(when)))
+            if not fixed: last = when
+            out["uploaded"].append((it["key"], vid, iso(when)))
             if err:
                 out["stopped"] = f"{it['key']} {vid}: {err}"; break
         else:
