@@ -653,5 +653,51 @@
   "m7_d30_wyr",
   "m8_d14_wyr",
   "m8_d15_wyr"
- ]
+ ],
+ "lookup_by_old_title": {
+  "m7_d06_wyr": {
+   "old_title": "Would You Rather: Have the strength of an ant relative to your body size OR Have the speed of a che…",
+   "title": "Would You Rather: Ant strength or cheetah speed? 🤔 #Shorts"
+  },
+  "m7_d07_wyr": {
+   "old_title": "Would You Rather: Only eat raw food forever OR Only drink water — no other beverages? #Shorts",
+   "title": "Would You Rather: Only eat raw food or only drink water? 🤔 #Shorts"
+  },
+  "m7_d08_wyr": {
+   "old_title": "Would You Rather: Have perfect 20/20 vision with no glasses OR Have perfect 20/20 hearing with no a…",
+   "title": "Would You Rather: Perfect vision or perfect hearing? 🤔 #Shorts"
+  },
+  "m7_d09_wyr": {
+   "old_title": "Would You Rather: Live on the moon OR Live under the sea? #Shorts",
+   "title": "Would You Rather: Live on the Moon or live under the sea? 🤔 #Shorts"
+  },
+  "m7_d26_wyr": {
+   "old_title": "Would You Rather: See ultraviolet light like a bee OR Hear infrasound like an elephant? #Shorts",
+   "title": "Would You Rather: See UV like a bee or hear infrasound like an elephant? #Shorts"
+  },
+  "m7_d27_wyr": {
+   "old_title": "Would You Rather: Have the regeneration ability of a starfish OR Have the immunity of a naked mole…",
+   "title": "Would You Rather: Starfish regeneration or mole-rat immunity? #Shorts"
+  },
+  "m7_d28_wyr": {
+   "old_title": "Would You Rather: Explore a newly discovered cave system OR Explore a newly discovered ocean trench…",
+   "title": "Would You Rather: Explore a new cave or explore a new ocean trench? #Shorts"
+  },
+  "m7_d29_wyr": {
+   "old_title": "Would You Rather: Know every species of animal by sight OR Know every species of plant by sight? #S…",
+   "title": "Would You Rather: Know every animal or know every plant? 🤔 #Shorts"
+  },
+  "m7_d30_wyr": {
+   "old_title": "Would You Rather: Live in a rainforest for a year OR Live in an arctic tundra for a year? #Shorts",
+   "title": "Would You Rather: A year in the rainforest or a year in the Arctic? #Shorts"
+  },
+  "m8_d14_wyr": {
+   "old_title": "Would You Rather: Be a scribe in ancient Egypt OR Be a philosopher in ancient Athens? #Shorts",
+   "title": "Would You Rather: Egyptian scribe or Athenian philosopher? 🤔 #Shorts"
+  },
+  "m8_d15_wyr": {
+   "old_title": "Would You Rather: Attend a Shakespeare play in the original Globe Theatre OR Attend the premiere of…",
+   "title": "Would You Rather: Shakespeare at the Globe or Beethoven's 9th premiere? #Shorts"
+  }
+ }
 }
