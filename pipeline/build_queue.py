@@ -25,7 +25,13 @@ THEME_TAGS = {7: ["science", "nature", "science facts"], 8: ["history", "culture
               11: ["christmas", "christmas trivia", "holiday quiz"]}
 
 def clip(s, n=100):
-    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+    """Trim to YouTube's 100-char limit WITHOUT losing the trailing '#Shorts' tag.
+    (Nov 2026: WYR titles were cut mid-sentence and lost #Shorts; most got 0 views.)"""
+    if len(s) <= n:
+        return s
+    tag = " #Shorts" if s.endswith("#Shorts") else ""
+    body = s[: len(s) - len(tag)] if tag else s
+    return body[: n - len(tag) - 1].rstrip() + "…" + tag
 
 def slots():
     t = START
