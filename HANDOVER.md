@@ -113,7 +113,7 @@ The connection has pointed at the wrong channel in the past (a personal channel,
 | `pipeline/yt_uploader.py` | Uploader that runs inside the Composio workbench (see §6). |
 | `pipeline/merge_progress.py` | Merges a session's new uploads into `uploaded.json`. |
 | `pipeline/sports_ep2_build.py`, `sports_ep2_content.py` | Scene-based long-form builder: intro, category cards, questions, outro, plus chapter generation. A template for future episodes. |
-| `HANDOVER.md` | Older handover (Aug–Oct). Parts of it are outdated; for example it says TTS was abandoned, but Piper TTS is in use now. This document supersedes it. |
+| `HANDOVER.md` | This document. The older Aug–Oct handover is in git history (before commit `0b469c4`); parts of it are outdated, for example it says TTS was abandoned, but Piper TTS is in use now. |
 
 **Cloning without the ~800 MB of videos:**
 ```bash
